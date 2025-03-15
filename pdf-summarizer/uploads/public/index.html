@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Summarizer</title>
+  <style>
+    .spinner {
+      border: 16px solid #f3f3f3;
+      border-top: 16px solid #3498db;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 2s linear infinite;
+      display: none;
+      margin: auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Upload a PDF Book</h1>
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="pdf" accept="application/pdf" required>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="output"></div>
+  <div class="spinner" id="spinner"></div>
+
+  <script>
+    const ws = new WebSocket(`ws://${window.location.host}`);
+
+    ws.onmessage = function(event) {
+      const output = document.getElementById('output');
+      output.innerHTML += event.data.replace(/\n/g, '<br>') + '<br>';
+    };
+
+    document.getElementById('uploadForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const formData = new FormData(this);
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', '/upload', true);
+
+      // Display the spinner and processing message
+      document.getElementById('output').innerHTML = 'Processing the book...<br>';
+      document.getElementById('spinner').style.display = 'block';
+
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+          document.getElementById('spinner').style.display = 'none'; // Hide the spinner
+          if (xhr.status === 200) {
+            document.getElementById('output').innerHTML += xhr.responseText.replace(/\n/g, '<br>');
+          } else {
+            document.getElementById('output').innerHTML += 'An error occurred while processing the book.';
+          }
+        }
+      };
+
+      xhr.send(formData);
+    });
+  </script>
+</body>
+</html>
