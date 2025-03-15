@@ -1,0 +1,140 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 15,
+    "title": "Dependability and security assurance",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Chapter 15: Dependability & Security Assurance",
+            "content": [
+                "This chapter examines techniques for assuring system dependability and security.",
+                "These include static analysis, dependability and security testing, and process assurance.",
+                "It explores how evidence from these activities is used in dependability cases.",
+                "Verification and validation (V&V) techniques play a key role in this process."
+            ],
+            "script": "Welcome to Chapter 15, where we delve into techniques used for ensuring software systems are both dependable and secure. This includes static analysis, diverse forms of testing, and process assurance.  We will also look at how these techniques are related with dependability cases and cover how V&V plays a critical role."
+        },
+        {
+            "slide_number": 2,
+            "title": "Dependability & Security: Static Analysis",
+            "content": [
+                "Static analysis reviews software's source without execution.",
+                "It helps to identify potential vulnerabilities early in the SDLC.",
+                "Techniques include inspections, model checking, and automated program analysis.",
+                "Can verify that the system has all required attributes and characteristics."
+            ],
+            "script": "Now let's move on to static analysis, a key verification technique. Static analysis examines the program's source code to identify potential vulnerabilities. This is done without actually executing the code, allowing for earlier detection of issues in the SDLC. Inspections, model checking, and automated program analysis are among its techniques to verify the software's quality."
+        },
+        {
+            "slide_number": 3,
+            "title": "Approaches to Static Analysis",
+            "content": [
+                "Formal verification uses mathematical arguments to prove conformance to specifications.",
+                "Model checking explores all system paths for inconsistencies and violations.",
+                "Automated analysis identifies code patterns known for errors.",
+                "Knowledge of the code is used when checking if there is potential for errors."
+            ],
+            "script": "Now let's talk about the various approaches to static analysis. Formal verification uses mathematical arguments to demonstrate program correctness, ensuring code consistency with its specifications. Model checking then rigorously explores all system paths to expose inconsistencies. Lastly, automated analysis identifies known coding errors. All with knowledge of what kind of errors may exist."
+        },
+        {
+            "slide_number": 4,
+            "title": "Dependability & Security: Reliability Testing",
+            "content": [
+                "Reliability testing measures software system reliability by observing failures.",
+                "Involves defining an operational profile to reflect actual usage.",
+                "Test data is generated to match the operational profile.",
+                "The number of failures and their types are carefully logged.",
+                "System reliability is computed based on collected failure data."
+            ],
+            "script": "Reliability testing is used to measure software system reliability by observing failures. This includes creating an operational profile reflecting actual usage. Based on that test data, it is generated to align with the operational profile, and we carefully log the number of failures to compute the overall system reliability."
+        },
+        {
+            "slide_number": 5,
+            "title": "Approaches to Test Case Selection",
+            "content": [
+                "Partition testing divides inputs into groups to test equivalent behaviors.",
+                "Test cases are selected at partition boundaries and midpoints.",
+                "Guideline-based testing uses experience to identify fault-revealing test cases.",
+                "Examples: testing with single values or with different size sequences."
+            ],
+            "script": "Test case selection is done via partition testing, which divides inputs into groups. Then test cases are selected at boundaries and midpoints. Then guideline-based testing is used by using experience to identify any kind of fault-revealing test cases. Some of these include testing with single values or various size sequences."
+        },
+        {
+            "slide_number": 6,
+            "title": "Challenges in Reliability Testing",
+            "content": [
+                "Operational profile uncertainty limits accuracy of measurements.",
+                "High costs are involved when generating data for an operation.",
+                "Statistical uncertainty results when high reliability has to be specified.",
+                "Recognizing a failure can be difficult, especially when test data is unavailable."
+            ],
+            "script": "However, there are various challenges that exist during the reliability testing process. Operational profile uncertainty limits the accuracy of measurements, and higher costs are involved when generating data for the operation. Additionally, statistical uncertainty results when high reliability has to be specified, and just recognizing a failure can be difficult, especially when test data is unavailable."
+        },
+        {
+            "slide_number": 7,
+            "title": "Dependability & Security: Security Testing",
+            "content": [
+                "Security testing assesses a system's ability to resist external attacks.",
+                "Difficult due to unknown vulnerabilities and attacker ingenuity.",
+                "A combination of testing, tool-based analysis, and verification is used.",
+                "May use 'tiger teams' to simulate real-world attacks on the system."
+            ],
+            "script": "On the other hand, security testing assesses the system's ability to resist external attacks, a difficult proposition given unknown vulnerabilities and attacker ingenuity. A mix of testing, tool-based analysis, and verification is done, including potentially having a \u2018tiger team\u2019 to simulate real-world attacks."
+        },
+        {
+            "slide_number": 8,
+            "title": "Process Assurance",
+            "content": [
+                "Process assurance checks that the development process was followed.",
+                "Aim to produce evidence demonstrating proper enactment.",
+                "The level of detail can be based on the degree of the project's complexity.",
+                "Aids in assessing/identifying strengths and weaknesses of the process itself."
+            ],
+            "script": "Let's go over process assurance, which checks if a system's development process was followed, and should be properly documented to confirm it's adherence. In the process of ensuring the proper steps were followed, process assurance also helps identify any strengths or weaknesses."
+        },
+        {
+            "slide_number": 9,
+            "title": "Assuring Safety via Processes",
+            "content": [
+                "A safety assurance process helps to validate if safety standards were followed.",
+                "This includes hazard identification, planning, and tracking.",
+                "Can include an engineer being appointed and held accountable.",
+                "This ensures consistency with law and regulations in safety-critical systems."
+            ],
+            "script": "Process assurance is also what validates if safety standards were followed and in many cases are required for safety-critical systems. This may include formally planning out various processes including identifying and tracking hazards as well as having specific roles held accountable. The safety assurance process ultimately ensures that the system is consistent with laws and regulations."
+        },
+        {
+            "slide_number": 10,
+            "title": "Dependability Cases",
+            "content": [
+                "Safety and dependability cases are structured arguments with evidence.",
+                "Used to convince regulators a system is dependable and safe.",
+                "Safety cases are a legal requirement in many critical systems.",
+                "Arguments link evidence to dependability and security claims."
+            ],
+            "script": "We then have dependability and safety cases, which provide the structured arguments and evidence needed to convince regulators that a system meets the required standards of dependability and safety. Safety cases are a legal requirement for critical systems, and these structured arguments provide the necessary justification for safety and security claims."
+        },
+        {
+            "slide_number": 11,
+            "title": "Arguments & Evidence",
+            "content": [
+                "Arguments, with clear claims, are linked to collected evidence.",
+                "Claims about the system\u2019s operation are the focus.",
+                "Evidence is redundant and diverse, increasing confidence.",
+                "Early planning of cases will reduce difficulties later in the SDLC."
+            ],
+            "script": "These arguments feature clear claims that are backed by collected evidence. The claims focus on the system's operation and the evidence must be redundant and diverse, thus increasing confidence. Early planning will reduce the difficulties later in the SDLC."
+        },
+        {
+            "slide_number": 12,
+            "title": "Structured Safety Arguments",
+            "content": [
+                "Arguments based on demonstrating contradictions with unsafe states.",
+                "Involves assuming and defining unsafe states with predicates.",
+                "Program analyzed to contradict assumption of unsafe state.",
+                "Demonstrates to stakeholders that the system actually meets safety requirements."
+            ],
+            "script": "Also worth noting are structured safety arguments, which are based on demonstrating contradictions with unsafe states. This involves assuming and defining what these unsafe states would be. A program is then analyzed to contradict the assumption of what those unsafe states would be. Demonstrating this overall gives stakeholders more confidence."
+        }
+    ]
+}

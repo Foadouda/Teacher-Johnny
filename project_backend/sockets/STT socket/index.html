@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Logger</title>
+</head>
+<body>
+    <h1>WebSocket Connection Log</h1>
+    <button onclick="connectWebSocket()">Connect to WebSocket</button>
+    <ul id="log"></ul>
+
+    <script>
+        let ws;
+
+        function connectWebSocket() {
+            ws = new WebSocket("ws://localhost:8000"); // Change IP if needed
+
+            ws.onopen = () => {
+                logMessage("✅ Connected to WebSocket server!");
+            };
+
+            ws.onmessage = (event) => {
+                let data = JSON.parse(event.data);
+                logMessage("📝 Transcription: " + data.transcription);
+            };
+
+            ws.onclose = () => {
+                logMessage("❌ Disconnected from WebSocket server!");
+            };
+
+            ws.onerror = (error) => {
+                logMessage("⚠️ WebSocket Error: " + error.message);
+            };
+        }
+
+        function logMessage(message) {
+            let logList = document.getElementById("log");
+            let listItem = document.createElement("li");
+            listItem.textContent = message;
+            logList.appendChild(listItem);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+    "book_name": "Business Essentials",
+    "chapter": 14,
+    "title": "Information Technology (IT) for Business",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "IT: Driving Change in Business",
+            "content": [
+                "IT creates portable offices with remote access to instant information for improved employee effectiveness.",
+                "IT enables better customer service by coordinating deliveries and sharing real-time information with service providers.",
+                "IT helps organizations to become leaner and more efficient through streamlined processes and increased connectivity.",
+                "IT is increasingly enabling greater collaboration among employees, fostering a more productive and innovative work environment.",
+                "IT facilitates global exchange, allowing businesses to operate and communicate seamlessly across international borders.",
+                "IT provides the flexibility needed for customization, allowing businesses to tailor products/services to individual customer needs."
+            ],
+            "script": "Welcome to Chapter 14, where we dive into the transformative role of Information Technology. This first slide highlights the core ways IT is revolutionizing business. We'll discuss how IT creates portable offices, enhances customer service, streamlines operations, enables collaboration, supports global exchange, and empowers customization. These advancements are fundamental to understanding the modern business landscape."
+        },
+        {
+            "slide_number": 2,
+            "title": "New Business Opportunities Through IT",
+            "content": [
+                "IT improves the world and our lives by connecting resources, expanding educational opportunities, and fostering innovations.",
+                "IT reduces paper consumption, saving trees and promotes sustainability through efficient digital record-keeping and communication.",
+                "IT enables businesses to explore new markets, develop new product lines, and offer services that were previously impossible.",
+                "Digital accessibility levels the playing field for disadvantaged groups through remote health care and education.",
+                "IT continues to accelerate in almost every facet of human endeavor, allowing for progress and improvement in life."
+            ],
+            "script": "Now, let's consider the new business opportunities arising from IT. This slide outlines how IT improves lives, fosters sustainability, enables market expansion, enhances digital accessibility, and continues to accelerate progress. From telemedicine to online learning, IT's impact extends far beyond just traditional business models."
+        },
+        {
+            "slide_number": 3,
+            "title": "IT Building Blocks: Key Resources",
+            "content": [
+                "The Internet and other communication resources, such as e-mail, messaging, and conferencing, are vital for modern business.",
+                "Effective communication resources facilitate seamless connection and collaboration among employees, customers, and stakeholders.",
+                "IT facilitates knowledge management by organizing and storing data for analysis, and provides access to specialized knowledge.",
+                "IT helps to build and promote stronger connections among customers and stakeholders, by establishing positive realtionships, and allowing for input."
+            ],
+            "script": "This slide covers the key IT resources that businesses leverage. We'll be discussing the Internet and other communication technologies, data warehousing, and networks. Keep in mind these form the backbone of modern IT infrastructure and allow businesses to operate efficiently and effectively."
+        },
+        {
+            "slide_number": 4,
+            "title": "Networks: Foundation of Modern IT",
+            "content": [
+                "Networks consist of various devices linked together allowing the communication and exchange of data.",
+                "Client-server networks are a common architecture where clients request services and servers provide those services.",
+                "Application, print, and e-mail servers facilitate efficient operation of client-server networks by focusing tasks.",
+                "Cloud computing provides accessible information resources over the Internet from a remote storage service.",
+                "Wireless technologies use airborne electronic signals to link devices, facilitating the proliferation of devices and access."
+            ],
+            "script": "Here, we will talk about networks, which allow sharing of data and resources, as well as cloud computing. This slide breaks down the system architecture, including client-server networks, application servers, and wireless technologies. Understanding these fundamentals is vital for comprehending how IT systems function within an organization."
+        },
+        {
+            "slide_number": 5,
+            "title": "Power of IT: Information Systems",
+            "content": [
+                "Information systems convert data into meaningful and useful information for better decision-making.",
+                "Data warehousing leverages large amounts of information, enabling businesses to find patterns for better planning.",
+                "Data mining applies advanced statistical analyses and technologies to data for better marketing and strategic planning.",
+                "Businesses leverage IS with tools for marketing, finance, and management for improved decision making.",
+                "Knowledge management systems provide workers with resources to create, store, use, and transmit useful knowledge."
+            ],
+            "script": "This slide focuses on how information systems use IT to leverage data. We'll be talking about data warehousing and data mining, as well as how this leads to better management and strategic planning. We will also discuss systems used for knowledge management in a business environment."
+        },
+        {
+            "slide_number": 6,
+            "title": "Types of Information Systems",
+            "content": [
+                "Computer-aided design (CAD) facilitates new and innovative development through simulations and display in three-dimensional graphics.",
+                "Computer-aided manufacturing (CAM) uses computers to design and control production processes and testing.",
+                "Enterprise resource planning (ERP) organizes and manages activities for multiple functional areas across product lines.",
+                "Management information systems (MIS) provide management with reports, schedules, plans, and budgets to use for decisions.",
+                "Decision support systems (DSS) create virtual business models and test data to observe data response. "
+            ],
+            "script": "Here, we will examine the different types of information systems. We will cover computer-aided design (CAD), computer-aided manufacturing (CAM), enterprise resource planning (ERP), management information systems (MIS), and decision support systems (DSS). As a note, all these different systems contribute to the overall functioning of an organization and are necessary tools for the business."
+        },
+        {
+            "slide_number": 7,
+            "title": "IT Risks and Threats: The Dark Side",
+            "content": [
+                "IT risks and threats range from minor annoyances to significant theft or data loss.",
+                "Hackers gain unauthorized access to computer systems to steal information, money, and property.",
+                "Identity theft involves stealing personal information to get loans, credit cards, or other financial benefits.",
+                "Intellectual property theft results in the loss of competitive advantage and lost revenue for businesses.",
+                "Computer viruses, worms, and Trojan horses disrupt IT operations, costing businesses billions annually."
+            ],
+            "script": "Now, let's take a look at the darker aspects of IT. This slide identifies the threats and risks that IT presents to businesses and individuals, including hackers, identity theft, intellectual property theft, and malware. An understanding of these threats are necessary to make informed decision on how to protect a business against these."
+        },
+        {
+            "slide_number": 8,
+            "title": "More IT Risks: Spyware and Spam",
+            "content": [
+                "Spyware monitors computer activities, gathers information, and transmits it to someone outside the host system.",
+                "Spam is junk e-mail sent to a mailing list or newsgroup consuming bandwidth and reducing network capacity.",
+                "Unintentional leakage occurs when employees accidentally send confidential information. Malicious data exfiltration is a theft."
+            ],
+            "script": "We will be discussing the risks of spyware and spam. These activities, while not destructive in themselves, can be used to gather information that can be used in destructive ways. We will also be discussing how these are more prevalent in companies with poor data practices."
+        },
+        {
+            "slide_number": 9,
+            "title": "IT Protection Measures",
+            "content": [
+                "Firewalls protect against unauthorized access to computer networks with security policies and routing restrictions.",
+                "Effective antivirus software scans incoming e-mails and data files for signatures of known viruses and virus-like characteristics.",
+                "Encryption software protects electronic communications by encoding messages so that only intended recipients can read them.",
+                "Anti-spyware and spam-filtering software can protect against unwanted programs and intrusive emails.",
+                "Preventing identity theft is possible through cautious internet behaviour"
+            ],
+            "script": "With a better understanding of the IT risks, we will discuss how to protect against those risks. IT protection measures include firewalls, antivirus software, encryption software, and anti-spam and antispyware software. By using these safeguards, businesses and individuals can improve their security posture and reduce their likelihood to harm from intrusions."
+        },
+        {
+            "slide_number": 10,
+            "title": "Ethical Concerns in IT: Balancing Act",
+            "content": [
+                "Ethical concerns in IT relate to privacy and the usage of personal information.",
+                "Data misuse has ethical considerations for those with access to personal records.",
+                "Digital rights and responsibilities are areas of concern for balancing privacy with freedom.",
+                "The rise of digital piracy also causes concerns for those creating content, and distributing it.",
+                "IT is creating previously unanticipated problems for which solutions are needed to ensure privacy."
+            ],
+            "script": "This last slide highlights some key ethical concerns that are coming as a result of technological advances. By understanding the ethical concerns associated with IT, we can take action to prevent abuse and exploitation of data and personal information."
+        }
+    ]
+}

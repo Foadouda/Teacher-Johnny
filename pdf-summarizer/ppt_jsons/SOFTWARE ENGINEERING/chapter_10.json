@@ -1,0 +1,118 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 10,
+    "title": "Sociotechnical Systems",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Sociotechnical Systems: Introduction",
+            "content": [
+                "A sociotechnical system includes technical elements (hardware, software) and social aspects (people, processes, rules).",
+                "The system's success depends on both technical and organizational factors, creating unique challenges.",
+                "Software engineers must understand how systems interact with their human and organizational environment for success.",
+                "Taking a holistic, system-level view is vital when considering dependability and security characteristics."
+            ],
+            "script": "Welcome to our exploration of sociotechnical systems. In this introductory slide, we define what a sociotechnical system is. Key takeaway: It's not just about the tech; it's about the people and the processes surrounding the technology. I will walk you through in this series of slides how important it is that software engineers have to remember the holistic view of the system, as they dive deep into security and dependability of these systems."
+        },
+        {
+            "slide_number": 2,
+            "title": "Complex Systems: Beyond Components",
+            "content": [
+                "Complex systems demonstrate emergent properties, exhibiting behaviors not inherent in individual parts.",
+                "Effective sociotechnical systems depend on interrelation of components and human interaction.",
+                "Focusing solely on technical aspects while ignoring human and organizational context leads to system failures.",
+                "Therefore, understanding these complex relationships is crucial for successful engineering."
+            ],
+            "script": "Now, let's dive a bit deeper and look at the nature of complexity. In these systems, it's very important to remember that the systems components, while they do contribute, must be understood, or else system failures will occur. Take a look at the slide and you'll see some key points to consider. "
+        },
+        {
+            "slide_number": 3,
+            "title": "The Sociotechnical Systems Stack",
+            "content": [
+                "Sociotechnical systems can be conceptualized as a layered stack: equipment, OS, communications, applications, business processes, organization, social.",
+                "Each layer is intertwined, affecting the overall system behavior and is vital in understanding the overall behavior.",
+                "Changes in one layer can cascade, influencing others and highlighting the system's interconnected nature.",
+                "Laws and social regulations are often in place to control the operations within the system."
+            ],
+            "script": "Here we highlight the layers of the system. Key idea: changes can affect each other across the system. This means that you can implement great technology with great processes, but that one failure in any layer will affect the operations within the other layers. Laws and social regulations are in place to control the operations, for example."
+        },
+        {
+            "slide_number": 4,
+            "title": "Dependability and Nondeterminism",
+            "content": [
+                "Sociotechnical systems include humans, who introduce nondeterminism into the system.",
+                "Human behavior, influenced by varied factors, makes system responses unpredictable.",
+                "Frequent changes in system components and data further contribute to system unpredictability.",
+                "These issues complicate decisions about system reliability and failure analysis, which is vital to remember."
+            ],
+            "script": "Now, it is vital to understand that when you introduce human factors into the system, it will cause an amount of unpredictability. People don't always react to systems the same way each time, as many external factors affect our behavior. Look at the slide and you will see a few key ideas. "
+        },
+        {
+            "slide_number": 5,
+            "title": "Systems Engineering: A Holistic Approach",
+            "content": [
+                "Systems engineering focuses on integrating all system components (hardware, software, processes) to meet the goal.",
+                "It considers the overall system architecture, hardware development, software engineering, and system deployment.",
+                "Systems engineers ensure all components work harmoniously, rather than focusing solely on software engineering.",
+                "Systems engineering considers the external factors such as safety, user expectations, and privacy."
+            ],
+            "script": "Now, let's take a step back to look at what's called systems engineering. System engineers often have to consider hardware and software along with the human experience and make sure that everyone's on the same page to meet a requirement. Take a look at the slide for more information."
+        },
+        {
+            "slide_number": 6,
+            "title": "Systems Engineering: Key Activities",
+            "content": [
+                "Systems engineering is a multifaceted discipline covering procurement, development, and operation.",
+                "Procurement focuses on defining purpose, requirements, budgets, and supplier selections of vendors.",
+                "Development encompasses system design, software engineering, integration, and user training.",
+                "Operations cover deployment, training, and ongoing system evolution, where changes to adapt the system are continuous."
+            ],
+            "script": "Key processes in the systems engineering lifecycle are key to remember as this book dives into this topic. Please note the definitions on the slide."
+        },
+        {
+            "slide_number": 7,
+            "title": "The Significance of Procurement",
+            "content": [
+                "System procurement profoundly impacts security and dependability.",
+                "It affects design choices, limits security safeguards, and introduces potential vulnerabilities.",
+                "Off-the-shelf systems have limited security control, but custom systems require in-depth, experienced risk analysis.",
+                "A balanced approach considers both off-the-shelf benefits and custom safeguards."
+            ],
+            "script": "Here are a few notes about the significance of procurement to keep in mind. This has direct implications on the security and dependability of a system, depending on the situation. Make sure you take a look."
+        },
+        {
+            "slide_number": 8,
+            "title": "System Development Process Considerations",
+            "content": [
+                "The system development process should meet its requirements and avoid development errors.",
+                "A plan-driven approach is appropriate, extensive verification and validation are needed before the system is tested.",
+                "It is essential to identify which components are the cause and if the software interacts correctly and meets expectations.",
+                "You also must identify a set of test plans that need to be verified in a timely fashion, and to account for human limitations."
+            ],
+            "script": "Here are some steps to look into during the systems development process. Of course, a formal, test-based process is what is generally expected, so keep in mind that in these steps you need to take time to implement extensive verification and validation to discover what may be incorrect. It's also vital to account for human limitations as well."
+        },
+        {
+            "slide_number": 9,
+            "title": "System Operation: Human Factors",
+            "content": [
+                "Operational processes define system use and may differ significantly from initial design expectations.",
+                "System operators provide a unique capacity for responding to unexpected situations, requiring adaptable processes.",
+                "Human errors can compromise safety and dependability, necessitating a systems approach to error prevention.",
+                "The employer may have unethical ways of acting, or not record actions, which cause a safety risk to others."
+            ],
+            "script": "System operations are so nuanced and dependent on the operators themselves. Look over these key ideas, such as to always design a system to avoid human error by recording everything while still maintaining respect for rights."
+        },
+        {
+            "slide_number": 10,
+            "title": "System Survivability: Maintaining Services",
+            "content": [
+                "System survivability is all about planning around the idea of essential services being delivered.",
+                "There are three approaches you can take, including resistance, recognition, and recovery.",
+                "Resistance means to build capabilities into the system to repel attacks.",
+                "Recognition is the concept of making sure you can assess damage and detect issues.",
+                "Recovery means to build capabilities into the system to deliver essential services while under attack."
+            ],
+            "script": "The last topic in our discussion today, survivability. This means to plan around the idea of maintaining those essential services. Look at these three approaches on this slide for more information."
+        }
+    ]
+}

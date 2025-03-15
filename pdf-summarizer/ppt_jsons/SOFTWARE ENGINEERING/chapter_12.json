@@ -1,0 +1,117 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 12,
+    "title": "Dependability and Security Specification",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Dependability and Security: A Systems Perspective",
+            "content": [
+                "Effective security and dependability hinge on a system-level, holistic view.",
+                "Must examine software's interactions with hardware and the operational environment.",
+                "Emphasis should be placed on minimizing the propagation of software failures.",
+                "Design for detection and recovery from potential hardware, security threats, human errors."
+            ],
+            "script": "Welcome to the chapter on Dependability and Security Specification. This chapter emphasizes that a system-level view is paramount for effective security and dependability. We will explore the importance of examining the software's interaction with both hardware and the operational environment. Moreover, the design must minimize failure propagation and include detection and recovery from threats and errors."
+        },
+        {
+            "slide_number": 2,
+            "title": "Risk-Driven Requirements: Focusing on the Critical",
+            "content": [
+                "Prioritize requirements based on potential risks and consequences.",
+                "A risk-driven approach helps allocate resources effectively and minimizes potential harm.",
+                "It involves identifying, analyzing, and managing potential threats.",
+                "The goal is to create software that can handle the impact and cost-effectiveness of risks."
+            ],
+            "script": "This slide introduces the idea of a Risk-Driven Requirements Specification. The idea here is to prioritize requirements based on potential risks and consequences, focusing on effective resource allocation. A risk-driven approach involves identifying, analyzing, and managing threats to ensure software handles the impact and cost-effectiveness of risks."
+        },
+        {
+            "slide_number": 3,
+            "title": "Safety Specification: 'Shall Not' Requirements",
+            "content": [
+                "Safety-critical systems demand precise, risk-driven specification.",
+                "Emphasis is placed on 'shall not' requirements to avoid hazardous behaviors.",
+                "An acceptable balance between safety and functionality must be found for each system.",
+                "The goal is to protect against events that lead to unsafe conditions for any involved."
+            ],
+            "script": "This slide focuses on the Safety Specifications necessary for designing and building safety-critical systems. We will examine the importance of 'shall not' requirements in preventing hazards and the delicate balance required to maintain both safety and functionality in the system."
+        },
+        {
+            "slide_number": 4,
+            "title": "Fault Tree Analysis: A Top-Down Approach to Hazard ID",
+            "content": [
+                "Fault tree analysis identifies potential root causes of hazards.",
+                "Begins with the hazard at the root of the tree, tracing back potential causes.",
+                "Used to understand the conditions that lead to the creation of each hazard.",
+                "Software requirements that focus on dependability are identified to counter hazards."
+            ],
+            "script": "This slide explains fault tree analysis, a crucial technique in hazard analysis. We will explore how a top-down approach, starting from the hazard and tracing backward, helps in identifying the root causes of potential failures. This understanding allows us to define software requirements for building dependable systems."
+        },
+        {
+            "slide_number": 5,
+            "title": "Reliability Specification: Quantifying Trust",
+            "content": [
+                "Defines metrics and measurements for software reliability.",
+                "Metrics include POFOD, ROCOF, and availability to demonstrate system dependability.",
+                "Quantitative metrics must be objectively testable and should avoid ambiguity in code.",
+                "Focus should be placed on metrics that best suit the application domain being developed."
+            ],
+            "script": "This slide addresses Reliability Specification. The key here is the use of metrics and measurements to ensure a quantified approach to software reliability. We'll discuss how these metrics, such as POFOD, ROCOF, and availability, can be objectively tested and tailored to the application domain."
+        },
+        {
+            "slide_number": 6,
+            "title": "Functional Reliability: Avoidance, Detection, Recovery",
+            "content": [
+                "Checking requirements are needed to ensure input and output validity.",
+                "Recovery requirements need support when failures occur.",
+                "Redundancy requirements ensure service if components fail.",
+                "System performance depends on the selection of the most appropriate method of repair."
+            ],
+            "script": "Now, we explore Functional Reliability Specifications, which cover the essential requirements for checking, recovery, and redundancy in a software system. Our objective is to focus on ensuring the validity of inputs and outputs, robust recovery mechanisms, and proper implementation of the system."
+        },
+        {
+            "slide_number": 7,
+            "title": "Security Specification: Protection Against Malice",
+            "content": [
+                "Security specifications cover the 'shall not' requirements for protecting a system.",
+                "The goal is to avoid specific types of external attacks from happening and ensure system survivability.",
+                "Security standards set up a framework for setting expected behavior.",
+                "Security specifications must be adaptable to prevent potential attacks from malicious users."
+            ],
+            "script": "This slide addresses Security Specifications, which focus on requirements that describe how to prevent malice and protect a system from external attacks. We will discuss how security standards establish a framework for behavior, and the need for specifications to adapt to potential threats from malicious users."
+        },
+        {
+            "slide_number": 8,
+            "title": "Key Aspects of Security Requirements",
+            "content": [
+                "Security measures range from identifying users, to authentication and authorization, to limit damage.",
+                "The focus should be put on system survivability to continue essential software.",
+                "It is essential to identify assets and select controls, so the system is ready for judicial review.",
+                "Risk assessment is an important technique for system security."
+            ],
+            "script": "This slide underscores the key aspects of Security Requirements including a range of measures that are implemented to safeguard a system from threats, such as identification and authentication. More importantly, it emphasizes designing for system survivability and ensuring judicial review if necessary."
+        },
+        {
+            "slide_number": 9,
+            "title": "Formal Specification: A Mathematical Approach",
+            "content": [
+                "Formal specification uses mathematics to define software.",
+                "It provides a means for software engineers to express their work accurately and without ambiguity.",
+                "It can help to reduce or eliminate software failures by coding errors.",
+                "However, formal specification isn't always used because its process is difficult and expensive."
+            ],
+            "script": "This slide will discuss Formal Specification, which takes a mathematical approach to define software systems. Here, the benefits and challenges of using formal methods will be introduced, as well as understanding how they might reduce software failures and potential issues."
+        },
+        {
+            "slide_number": 10,
+            "title": "Formal Specification: Limitations",
+            "content": [
+                "Stakeholders can\u2019t check if the requirements are accurate and may find difficulty reading a model.",
+                "Elegant theories of computer science cannot always be applied to large, complex problems.",
+                "Software engineers may not be properly trained to use specification languages.",
+                "Formal specification has had limited impact on practical software and is not compatible with agile."
+            ],
+            "script": "This slide addresses the limitations of Formal Specifications. While these specs can provide precision, there are significant challenges that come with it. Such as high costs, problems with scaling, and other compatibility issues. The advantages and disadvantages must be weighed carefully."
+        }
+    ]
+}

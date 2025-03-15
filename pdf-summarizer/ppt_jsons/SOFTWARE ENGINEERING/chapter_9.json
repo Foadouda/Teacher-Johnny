@@ -1,0 +1,161 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 9,
+    "title": "Software Evolution",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Software Evolution: A Continuous Process",
+            "content": [
+                "Software evolution is not just maintenance; it's a continuous development cycle adapting to change.",
+                "Evolving systems must adapt to changing customer needs, market pressures, and new technologies.",
+                "Treat development and maintenance as a single evolutionary process; don't view them as separate activities.",
+                "Evolution involves activities such as specification, development, validation, and also active system assessment."
+            ],
+            "script": "Welcome to the chapter on Software Evolution. This slide highlights the key idea that software isn't finished when delivered. It needs to continually adapt and evolve to remain useful, blurring the lines between development and maintenance. We will explore all the necessary stages for efficient evolution."
+        },
+        {
+            "slide_number": 2,
+            "title": "Evolution Triggers and Drivers",
+            "content": [
+                "Evolution is driven by change requests: new requirements, defect reports, and adaptation to new tech.",
+                "Technical debt and increasing system complexity can significantly escalate evolution costs over time.",
+                "Changes due to evolving regulations can be a major driver especially in the medical and financial domains.",
+                "New business requirements, technology and market changes can also significantly affect system evolution."
+            ],
+            "script": "This slide identifies some external and internal factors that drive software evolution, including business requirements, environmental factors and new tech, as well as the key risk driver of increasing technical debt. Keep these evolution drivers in mind, as we examine different strategies for handling them."
+        },
+        {
+            "slide_number": 3,
+            "title": "Evolution Processes: A Closer Look",
+            "content": [
+                "Evolution process starts with a change request, assessed for cost and impact on the system.",
+                "Release planning involves prioritizing changes considering business value, available budget and dependencies.",
+                "Change implementation includes program understanding and necessary modifications to source code.",
+                "Modified software is tested to ensure changes are correctly implemented and that new issues don\u2019t arise."
+            ],
+            "script": "This slide illustrates the standard steps involved in software evolution and the change requests process. Each change is checked to confirm value and the code is then updated and tested to ensure continuous validity."
+        },
+        {
+            "slide_number": 4,
+            "title": "Coping with 'Emergency' Changes",
+            "content": [
+                "Circumstances may require bypassing formal change processes for urgent fault repairs.",
+                "Emergency fixes result in a divergence between the documented specification, design, and actual code.",
+                "These quick changes should be properly re-implemented and documented as part of the evolution.",
+                "Failure to properly account for these ad-hoc changes accelerates software aging and future technical debt."
+            ],
+            "script": "While structured change processes are effective, circumstances often require a short term fix to the code. If those short term fixes aren\u2019t properly rolled in it can create further problems down the road."
+        },
+        {
+            "slide_number": 5,
+            "title": "Program Evolution Dynamics: Lehman's Laws",
+            "content": [
+                "Lehman's Laws describe the dynamics of software evolution over a system\u2019s lifetime.",
+                "These 'laws' focus on issues such as continuing change, increasing complexity, and self-regulation.",
+                "Organizational factors also play a part such as organizational stability and the need for increasing growth.",
+                "Maintaining familiarity, decreasing code quality, and effective feedback are important to consider."
+            ],
+            "script": "This slide introduces Lehman's Laws. These laws serve as guideposts for understanding the inevitable trends of software evolution. We will be covering them in the following slide."
+        },
+        {
+            "slide_number": 6,
+            "title": "Lehman's Laws: Key Considerations",
+            "content": [
+                "Continuing change: Constant adaptation is essential, else the system becomes progressively less useful.",
+                "Increasing complexity: Evolving systems tend to become more complex. Devote resources to manage this.",
+                "Self-regulation: Program evolution has a self-regulating process, with stable release attributes.",
+                "Familiarity: Users need to maintain familiarity with changes."
+            ],
+            "script": "Here are some key considerations of Lehman\u2019s Laws. These four components are the basis of the remaining laws."
+        },
+        {
+            "slide_number": 7,
+            "title": "Lehman's Laws: Further Details",
+            "content": [
+                "Organizational stability: The rate of development is relatively constant over a program's lifetime.",
+                "Conservation of familiarity: The change in each release is approximately constant.",
+                "Continuing growth: Functionality must increase to maintain user satisfaction.",
+                "Declining quality: Without changes reflecting environmental changes, software quality declines."
+            ],
+            "script": "Here are some additional factors that Lehman identified. You should take all of Lehman's Laws into account during software evolution and maintenance."
+        },
+        {
+            "slide_number": 8,
+            "title": "Software Maintenance: A Deeper Dive",
+            "content": [
+                "Software maintenance involves changing a system after delivery to address needs of the customer.",
+                "Maintenance includes correcting errors, adapting to new environments, and functionality additions.",
+                "Evolution is a continuum, maintenance is the process to address those items after release.",
+                "Key element involves understanding and analyzing the impact a proposed change will make."
+            ],
+            "script": "Now we move onto discussing software maintenance, as it is an essential part of software engineering. Software maintenance is the general process of change and adapting to the ever changing technological landscape. A key element involves the process of understanding and analysing the impact of proposed changes."
+        },
+        {
+            "slide_number": 9,
+            "title": "Types of Software Maintenance",
+            "content": [
+                "Fault repairs: Correcting coding errors; relatively cheap to do but doesn't address deeper faults.",
+                "Environmental adaptation: Adapting to changes like new hardware, operating systems, or support software.",
+                "Functionality addition: Incorporating new requirements due to evolving business needs.",
+                "These types of maintenance can be difficult to separate out."
+            ],
+            "script": "This slide identifies three types of maintenance to keep in mind: bug fixes, adapting to new environments and adding functionality, but in reality they're often interlinked."
+        },
+        {
+            "slide_number": 10,
+            "title": "Addressing Complexity: Software Reengineering",
+            "content": [
+                "Legacy systems can be difficult to understand and change, requiring reengineering.",
+                "Reengineering improves system structure/understandability, but does not change system functionality.",
+                "Benefits include reduced risk, lower costs, as well as faster delivery of the software.",
+                "Limited scope: requirements compromises are inevitable and control over system evolution is lost."
+            ],
+            "script": "Reengineering plays a key role in evolutionary processes, addressing code complexity by improving structure and understandability, but it is not without its limitations. You may want to consider that there may be less control as code is integrated."
+        },
+        {
+            "slide_number": 11,
+            "title": "Refactoring: The Long Game",
+            "content": [
+                "Refactoring continuously improves a program\u2019s structure and organization to enhance change tolerance.",
+                "It is also a preventative maintenance, which will ensure software structure remains understandable and changeable.",
+                "Improving code now makes it easier to understand and change during future development cycles.",
+                "Rapid changes can degrade system structure unless time is spent on refactoring."
+            ],
+            "script": "Refactoring can have long term benefits. Although it takes time now it will decrease work time later on. However, that refactoring requires consistent commitment."
+        },
+        {
+            "slide_number": 12,
+            "title": "Legacy System Management: Strategic Choices",
+            "content": [
+                "Organizations must decide how to best manage their aging but essential systems.",
+                "Choices include: complete replacement, continue maintenance, system reengineering or full system management.",
+                "Choice depends on system value and quality; different options can be applied to subsystems.",
+                "Ethical decisions are a factor in assessing the potential for damage, the extent of damage and who is affected."
+            ],
+            "script": "When old systems are still useful, a decision has to be made what to do with them. The ethical implications are particularly significant when assessing what choice to make"
+        },
+        {
+            "slide_number": 13,
+            "title": "Assessing Legacy Systems: Key Factors",
+            "content": [
+                "Business perspective: Need to determine if the business really needs the system at all.",
+                "Technical perspective: Need to assess the quality of application software and hardware support.",
+                "There is no black and white decision, and often requires nuanced decisions.",
+                "Potential for damage, extent of the damage and people affected should influence any decisions."
+            ],
+            "script": "There are numerous factors to consider to make a proper assessment of the worth of old systems, including: how much it\u2019s used, business processes, system dependency, and the people affected by the outcome. The assessment should weigh the potential damage with who it affects."
+        },
+        {
+            "slide_number": 14,
+            "title": "The Process of Evolution",
+            "content": [
+                "Software evolution is a constant cycle that requires all stages to work in sync.",
+                "It includes feedback and reviews in each phase of the cycle.",
+                "To complete software engineering you need to have all types of people present from testers to management.",
+                "The importance of ethic and professional responsibility is increasing as software-intensive systems increase."
+            ],
+            "script": "As a recap, this is the circle of life for software and why it's important to have people available in all stages. Without all types of people there might be an oversight in the software as a whole. Lastly, keep in mind ethic and professional standards."
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "book_name": "Business Essentials",
+    "chapter": 12,
+    "title": "Developing and Pricing Products",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "What is a Product?",
+            "content": [
+                "A product is fundamentally a 'value package', offering benefits to satisfy customer needs and wants.",
+                "Product features are the qualities, tangible and intangible, that a company builds into its products.",
+                "Customers seek maximum value from the combination of attributes, benefits, and features offered.",
+                "Marketers have to classify products according to the expected buyers:  consumer or organizational."
+            ],
+            "script": "Hello everyone, welcome to the session on developing and pricing products. We'll start by understanding what exactly constitutes a product in marketing terms.  A product is more than just a physical item; it's a bundle of value designed to satisfy a need or want. Think about the features it has, and how those features translate into real benefits for the customer. Remember that classifying products as consumer or organizational products will influence marketing strategies."
+        },
+        {
+            "slide_number": 2,
+            "title": "Classifying Consumer Products",
+            "content": [
+                "Consumer products are classified into three main categories based on purchasing behavior.",
+                "Convenience goods/services: Inexpensive, frequently purchased with minimal effort and are consumed rapidly.",
+                "Shopping goods/services: Moderately priced, less frequently purchased; brands and features are compared.",
+                "Specialty goods/services: Expensive, infrequently purchased; brands and features are researched extensively."
+            ],
+            "script": "This slide discusses the classification of consumer products. We divide these products into three types:  convenience, shopping, and specialty goods and services. Convenience items, are those everyday purchases, while shopping and specialty items require more thought and research. Marketers use different strategies for each category to attract the right customers."
+        },
+        {
+            "slide_number": 3,
+            "title": "Classifying Organizational Products",
+            "content": [
+                "Organizational products are classified into three categories based on use and expense.",
+                "Production items: Used directly in the production process, such as raw materials and components.",
+                "Expense items: Consumed within a year, supporting operations like office supplies and maintenance.",
+                "Capital items: Longer-lasting assets that require capital investment, such as buildings and equipment."
+            ],
+            "script": "This slide deals with organizational products. We consider these from a business-to-business perspective. These products can be classified based on how they are used in operations.  We have production items, expense items, and capital items."
+        },
+        {
+            "slide_number": 4,
+            "title": "The Product Mix",
+            "content": [
+                "The product mix is the complete set of products that a company offers for sale.",
+                "Companies may offer related products or distinct products that are separate from each other.",
+                "A product line is a group of related products that meet a similar need or target a similar market.",
+                "Diversifying the product mix can help reduce risk and increase growth opportunities."
+            ],
+            "script": "On this slide, we are discussing the scope of the product offerings by a company. We have the product mix, which constitutes all of the products that a company offers. Then we have the product line, where each product is similar to the other. An example would be all kinds of coffee available at a store. So, the product line becomes part of the total product mix."
+        },
+        {
+            "slide_number": 5,
+            "title": "New Product Development - Process",
+            "content": [
+                "New product development is critical for long-term success, with a high mortality rate.",
+                "A seven-step process for developing new products involves a systematic approach.",
+                "Step 1: Idea generation; collect new ideas, or brainstorm.",
+                "Step 2: Screening; weeding out ideas that aren't feasible for product development.",
+                "Step 3: Concept testing; get consumer input about benefits and pricing.",
+                "Step 4: Business analysis; comparing costs and benefits."
+            ],
+            "script": "Here we move into the idea of new product development. Companies can't rely on the same products forever, so they have to develop new offerings. The mortality rate for new products is very high. Therefore, a multi-step process is useful. Here we have the first four steps. First, generate ideas, then screen them. Next, test the concept and conduct a business analysis."
+        },
+        {
+            "slide_number": 6,
+            "title": "New Product Development - Testing and Launch",
+            "content": [
+                "Step 5: Prototype development; build a model for testing.",
+                "Step 6: Product testing and test marketing; test the product in the market.",
+                "Step 7: Commercialization; starting full-scale production for mass production."
+            ],
+            "script": "And here are the last three steps. We develop a prototype, test it, and conduct a marketing campaign, Finally, if those processes are successful, then we move to mass production."
+        },
+        {
+            "slide_number": 7,
+            "title": "Product Development for Services",
+            "content": [
+                "Service development follows a similar process, with some key variations.",
+                "Step 1: Service ideas; identify value package and create service specifications.",
+                "Step 5: Service process design; choose, specify worker requirements, and design facility layout."
+            ],
+            "script": "While product development is important for goods, a separate process is required for services. The key variations are that service design requires the creation of the value package. The service process design must define the specific steps involved in the service, along with the personnel and facility requirements."
+        },
+        {
+            "slide_number": 8,
+            "title": "The Product Life Cycle (PLC)",
+            "content": [
+                "The PLC is a series of stages a product passes through during its commercial life.",
+                "These include the introduction, growth, maturity, and decline stages.",
+                "Introduction: Focus is on building awareness, with limited profits.",
+                "Growth: Sales climb, competitors enter, and profits emerge.",
+                "Maturity: Sales plateau, competition intensifies, and profits stabilize or begin to decline."
+            ],
+            "script": "Next, we have the product life cycle. A product has a lifespan from its introduction to its decline. In the introduction stage, the product is launched. As demand increases and competitors enter, the product enters the growth stage. The product then hits its plateau, which is the maturity stage."
+        },
+        {
+            "slide_number": 9,
+            "title": "Extending Product Life",
+            "content": [
+                "Decline: Sales and profits fall, new products replace old ones.",
+                "Companies attempt to extend product life through product extensions.",
+                "Product adaptation involves modifying the product for different countries.",
+                "Reintroduction means reviving a product for new markets."
+            ],
+            "script": "After the product hits its maturity stage, it eventually enters the decline stage, and here sales decrease. Companies can try to extend the product's life through adaptations, which means tweaking the product in order to target different regions. It can also be reintroduced to a completely new market."
+        },
+        {
+            "slide_number": 10,
+            "title": "Identifying Products: Branding",
+            "content": [
+                "Branding is the process of using symbols to communicate product qualities.",
+                "Successful branding creates brand awareness: consumers recognize your products.",
+                "National brands: Produced by and carrying the manufacturer's name.",
+                "Licensed brands: Name purchased the right to sell it from another organization."
+            ],
+            "script": "Here we move to branding. This is very critical. To do well, the company has to identify the products well. There are several different approaches, one of which is branding. Here, the product is identified by its name or its logo. If the product is successful, then the company builds brand awareness. Brand can be national or licensed."
+        },
+        {
+            "slide_number": 11,
+            "title": "Identifying Products: Private Brands & Packaging",
+            "content": [
+                "Private brands: Brand name that the wholesaler/retailer puts on the product.",
+                "Packaging reduces the risk of damage, breakage, or spoilage and make the product attractive.",
+                "Packaging also serves as advertisement for a product."
+            ],
+            "script": "Two other identification techniques include private brands and packaging. Private brands are those brands that are owned by the retailer or distributor and not the actual manufacturer. For example, CVS makes a version of Advil, but it is sold as the CVS brand. Then we have packaging. A strong packaging effort will decrease spoilage and increase visual appeal."
+        },
+        {
+            "slide_number": 12,
+            "title": "Determining Prices: Objectives",
+            "content": [
+                "Pricing objectives are the goals that sellers hope to achieve.",
+                "Profit-maximizing: Setting the price to maximize total profits (revenues minus expenses).",
+                "Market share: Setting a low price to gain market share, which may mean minimal or no profits.",
+                "E-business: Considering a low price to help reduce consumer comparison shopping, and to be competitive."
+            ],
+            "script": "Now we move into pricing, which is another of the 4 P's of marketing. Setting prices involves figuring out a strategy to obtain certain goals. These goals include maximizing profits, or aiming to obtain a bigger share of the market. The type of goals that you set then dictates the tactics you will use."
+        },
+        {
+            "slide_number": 13,
+            "title": "Price-Setting Tools",
+            "content": [
+                "Cost-oriented pricing: Price based on the seller\u2019s costs + desired profit margin.",
+                "Markup percentage: The amount added to an item\u2019s purchase cost to sell it at a profit.",
+                "Breakeven analysis: Determining the sales volume where total costs = total revenues.",
+                "Variable costs: Costs that change with the number of products sold.  Fixed costs: Costs that must be paid regardless of sales volume."
+            ],
+            "script": "Here are some examples of pricing tools. Cost-oriented pricing means that price is a function of total costs plus desired profit. To determine pricing, companies engage in breakeven analysis, in which they determine how much money they will lose if they are making sales at a certain level."
+        },
+        {
+            "slide_number": 14,
+            "title": "Pricing Strategies",
+            "content": [
+                "The pricing strategy guides the selection of specific tactics.  Existing Products: Pricing above, below, or at prevailing market levels.",
+                "New Products:  Price skimming (high price to cover costs and generate profit) vs. penetration pricing (low initial price).",
+                "Online Business:  Fixed pricing vs. dynamic pricing."
+            ],
+            "script": "Pricing strategies are then implemented using price-setting tools. For existing products, the price can be at, above, or below prevailing market rates. For new products, two common strategies are price skimming, or charging high initially and then lowering the price, and penetration pricing, in which you charge low to saturate the market. Finally, online sellers can use fixed or dynamic pricing."
+        },
+        {
+            "slide_number": 15,
+            "title": "Pricing Tactics",
+            "content": [
+                "Price lining: Setting a limited number of prices for certain product categories.",
+                "Psychological pricing: Prices that give the illusion of being on sale or lower than the actual amount.",
+                "Odd-even pricing: Prices not stated in even amounts.",
+                "Discount: Price reduction offered as an incentive to purchase (to encourage buying during off-peak seasons)."
+            ],
+            "script": "Then the different pricing tactics are employed. For example, price lining involves setting a limited number of prices in a product category. Then we have psychological pricing that takes advantage of the fact that consumers do not always make purchasing decisions based on pure, clear-cut economic value. We also have sales where we give discounts during a specific period. This concludes our session. I'll now take your questions."
+        }
+    ]
+}

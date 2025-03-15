@@ -1,0 +1,129 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 16,
+    "title": "Software Reuse",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Introduction to Software Reuse",
+            "content": [
+                "Software reuse involves using existing software assets in new system development, reducing costs and time.",
+                "It's driven by pressure to reduce development expenses, improve software quality, and deliver systems more rapidly.",
+                "Businesses increasingly treat software as a valuable asset, leading to efforts to maximize reuse.",
+                "The open-source movement and standardized technologies have significantly expanded the availability of reusable software."
+            ],
+            "script": "Welcome to the first slide on software reuse. In this chapter, we\u2019ll explore how leveraging existing software can benefit development projects. This slide highlights the growing importance of reuse due to economic pressures and the expanding availability of reusable resources.  We will also look at application frameworks, software product lines and COTS product reuse."
+        },
+        {
+            "slide_number": 2,
+            "title": "Levels of Software Reuse",
+            "content": [
+                "Reuse can occur at different levels: abstraction, object, component, and system, each with unique characteristics.",
+                "Abstraction level involves reusing successful design concepts and architectural patterns, as opposed to direct code reuse.",
+                "Object level entails direct reuse of objects from libraries, requiring thorough understanding and often source code access.",
+                "Component reuse integrates collections of objects, but adaptation and extension through new code are common.",
+                "System-level reuse involves incorporating entire application systems or configuring application product lines."
+            ],
+            "script": "Now let's consider the different levels at which software reuse can occur.  From abstract design patterns to complete application systems, there are various opportunities for leveraging existing software. Each level presents its own set of challenges and benefits, which we will explore."
+        },
+        {
+            "slide_number": 3,
+            "title": "Benefits of Software Reuse",
+            "content": [
+                "Software reuse reduces development cost and risk by reducing software to be developed from scratch.",
+                "Reused software, tried and tested, increases dependability as design and implementation flaws are usually already fixed.",
+                "It enables effective use of specialists who can focus on developing reusable components rather than redoing work.",
+                "It supports standards compliance and accelerates development and deployment, even with uncompleted functionality."
+            ],
+            "script": "This slide details the compelling advantages of adopting software reuse strategies. By minimizing original development, we not only cut costs and risks but also benefit from the enhanced dependability of thoroughly vetted components, all the while leveraging specialist expertise for maximum efficiency."
+        },
+        {
+            "slide_number": 4,
+            "title": "Problems with Software Reuse",
+            "content": [
+                "Increased maintenance costs can occur without source code availability, hindering adaptation of reused elements.",
+                "There might be a lack of tool support and an \u2018not-invented-here\u2019 syndrome affecting acceptance of the reused solutions.",
+                "Significant effort is required to find, understand, and adapt reusable components and systems.",
+                "Challenges exist in creating, maintaining, and using component libraries effectively across different project teams."
+            ],
+            "script": "While reuse offers many advantages, potential challenges also exist. Here, we focus on challenges such as increased maintenance costs, lack of developer acceptance and problems of populating and using components libraries."
+        },
+        {
+            "slide_number": 5,
+            "title": "Software Processes and Reuse",
+            "content": [
+                "Software processes need adaptation to incorporate reuse, including requirements refinement for discovered components.",
+                "Informal reuse happens organically, where developers utilize designs and code similar to what is currently required.",
+                "In reuse-oriented processes, requirements are modified based on available reusable components.",
+                "Formalized reuse depends on managed and understood development processes, and clear communication within teams."
+            ],
+            "script": "This slide examines how software processes can be adapted to incorporate reuse effectively. We see the requirements refinement activity and what occurs as the result."
+        },
+        {
+            "slide_number": 6,
+            "title": "Application Frameworks",
+            "content": [
+                "Application frameworks provide a skeleton architecture with reusable components, that are designed for extension.",
+                "They are implemented as concrete and abstract object classes and support generic features across similar applications.",
+                "They are organized in a systematic way, that blend of software and graphical design skills, and have a degree of formality.",
+                "User interfaces are blended seamlessly into reusable components and systems."
+            ],
+            "script": "Let's look at application frameworks. They provide a skeleton architecture and reusable components. In fact, frameworks are built as concrete and abstract object classes."
+        },
+        {
+            "slide_number": 7,
+            "title": "Types of Frameworks",
+            "content": [
+                "System infrastructure frameworks, such as communications or user interface frameworks support system development.",
+                "Middleware integration frameworks, like .NET or EJB, support component communication and information exchange.",
+                "Enterprise application frameworks, designed for specific application domains, such as accounting or library systems.",
+                "Web application frameworks, use a Model-View-Controller architecture based to construct dynamic websites."
+            ],
+            "script": "On this slide, we see examples of frameworks such as systems infrastructure, middleware integration, enterprise application and web application frameworks."
+        },
+        {
+            "slide_number": 8,
+            "title": "Software Product Lines",
+            "content": [
+                "Software product lines are a set of applications with a common architecture, sharing reusable components.",
+                "They are cheaper to produce and offer benefits that informs requirements for later system increments.",
+                "Different techniques are used to provide support, such as batch processing and mobile games.",
+                "Software product lines should also support user interaction and are exposed to severe environmental conditions."
+            ],
+            "script": "Next, we will examine software product lines that provide similar benefits. Each system provides what is needed to the customers at their disposal. Mobile games are often used with this architecture."
+        },
+        {
+            "slide_number": 9,
+            "title": "Developing a Software Product Line Instance",
+            "content": [
+                "Elicit stakeholder requirements and decide on a system with user involvement before making a decision on the system.",
+                "Select an existing system instance as the best fit, and then change unimplemented stories or discard those.",
+                "Renegotiate requirements based on modifications to reusable resources, and then adapt them.",
+                "Make the new family member software publicly available, or to a group depending on circumstances and agreements."
+            ],
+            "script": "Product instance development depends on the product line developed as the travel expense claim processes. You should follow these guidelines to adapt and adjust the system as needed."
+        },
+        {
+            "slide_number": 10,
+            "title": "COTS Product Reuse",
+            "content": [
+                "COTS products offer adaptation by using built-in mechanisms for configuration, not changing the source code.",
+                "Generic qualities that has been specifically developed, may also be applied from system to another.",
+                "Advantages of COTS are more rapid deployment of systems and no longer require direct payments from users.",
+                "With COTS product reuse, requirements must be adapted, and there may be lack of control over its evolution."
+            ],
+            "script": "Now, let's delve into COTS product reuse. Requirements, for example, are to change and may result in a system that does not meet the real needs of users. New features of a COTS may not be specified, and will be discovered later."
+        },
+        {
+            "slide_number": 11,
+            "title": "COTS System Types",
+            "content": [
+                "COTS-solution systems provide full functionality through a single vendor, using configured settings to suit different users.",
+                "COTS-integrated systems combine multiple COTS products or legacy systems to build a more complex application.",
+                "Each provides a custom approach and an integration with other systems is key to success.",
+                "Web-based systems are part of the system and must be easily adopted due to a bureaucratic structure."
+            ],
+            "script": "When using COTS, you may choose between a generic COTS product or a more customized integration with web-based systems. The system will often include a set of management reports and have a bureaucratic nature that some might oppose."
+        }
+    ]
+}

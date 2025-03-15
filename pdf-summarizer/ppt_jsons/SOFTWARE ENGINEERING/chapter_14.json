@@ -1,0 +1,117 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 14,
+    "title": "Security Engineering",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Security Engineering: An Overview",
+            "content": [
+                "Security engineering focuses on building systems resistant to malicious attacks and system damage.",
+                "It addresses accidental intrusions and deliberate exploitations, safeguarding system integrity and data.",
+                "This perspective complements dependability engineering, emphasizing preventive, detective, and recovery measures.",
+                "Application security emphasizes the software, while infrastructure security ensures correct configuration and maintenance."
+            ],
+            "script": "Welcome to our exploration of Security Engineering! This chapter delves into building systems that are strong against malicious attacks, ensuring data protection and system stability. We will discuss key concepts and the relationship between application and infrastructure security."
+        },
+        {
+            "slide_number": 2,
+            "title": "Security Risk Management: A Foundation",
+            "content": [
+                "Security risk management balances potential losses against the cost of implementing security controls.",
+                "Senior management should make key decisions, guided by informed technical insights from engineers.",
+                "Organizational security policies define acceptable and unacceptable system behaviors forming the basis for risk assessments.",
+                "Risk assessment is an iterative process spanning the system lifecycle, continuously adapting to emerging threats."
+            ],
+            "script": "Let's delve into Security Risk Management. This involves weighing the potential losses from security breaches against the expenses of implementing protective measures. It's crucial to remember that senior management guides the process, and software engineers should give technical guidance. Furthermore, organizational security policies are a must-have."
+        },
+        {
+            "slide_number": 3,
+            "title": "Risk Assessment Stages: A Phased Approach",
+            "content": [
+                "Preliminary risk assessment: Determines initial security requirements early in the development process.",
+                "Life-cycle risk assessment: Considers technology choices and design decisions' impact on security.",
+                "Operational risk assessment: Addresses emerging threats and potential vulnerabilities in the deployed system.",
+                "Each assessment informs further design and implementation adjustments, enhancing overall security posture."
+            ],
+            "script": "The risk assessment has a phased approach. We begin with the Preliminary Risk Assessment, then follow with the Life-Cycle Risk Assessment and Operational Risk Assessment. This phased approach lets you find and mitigate threats early in development."
+        },
+        {
+            "slide_number": 4,
+            "title": "Identifying Threats with Misuse Cases",
+            "content": [
+                "Misuse cases, derived from the system's security policy, describe potential malicious interactions.",
+                "They outline how attackers might exploit vulnerabilities to compromise system assets.",
+                "Analyzing these scenarios helps to identify and prioritize specific security requirements.",
+                "Categorizing threats includes interception, interruption, modification, and fabrication of assets."
+            ],
+            "script": "Next, let's examine how to identify threats with Misuse Cases. By considering what hostile entities might try to do, we can create scenarios that identify security loopholes and vulnerabilities."
+        },
+        {
+            "slide_number": 5,
+            "title": "Design for Security: Core Principles",
+            "content": [
+                "Security should be proactively designed into the system rather than added as an afterthought.",
+                "Apply design guidelines that are well understood and documented for secure systems development.",
+                "Balance security measures with usability and performance, ensuring the system remains practical.",
+                "Integrate deployment considerations into the design, reducing configuration-related vulnerabilities."
+            ],
+            "script": "Moving on to Design for Security, it's essential to integrate security measures from the outset. Secure systems are not just about technologies, they depend on clear guidelines and a careful balancing of security with usability and performance."
+        },
+        {
+            "slide_number": 6,
+            "title": "Essential Security Design Guidelines",
+            "content": [
+                "Base decisions on explicit security policies, ensuring consistency and alignment with organizational goals.",
+                "Avoid single points of failure: Implement redundant and diverse security mechanisms.",
+                "Design systems to fail securely, preventing data breaches or unauthorized access during failures.",
+                "Remember that the needs of security and usability frequently conflict so balance and prioritize them carefully."
+            ],
+            "script": "Let's cover a few essential security design guidelines. First, ground all decisions in explicit security policies to ensure consistent enforcement. Second, avoid single points of failure by implementing multiple, diverse defenses. Third, design systems to fail securely to prevent data breaches. Balancing security and usability will help you create systems that are strong and easy to use."
+        },
+        {
+            "slide_number": 7,
+            "title": "More Design Guidelines for Security",
+            "content": [
+                "Log user actions to deter misuse and facilitate auditing for security breaches.",
+                "Use redundancy and diversity to reduce the likelihood of common-mode failures in critical functions.",
+                "Validate all inputs to prevent code injection or buffer overflows, ensuring data integrity.",
+                "Compartmentalize assets to limit the scope of damage from successful attacks."
+            ],
+            "script": "Here are some additional design guidelines. Logging user actions allows you to trace the steps of a security breach. Using redundancy and diversity minimizes the chances of attacks. Validate all inputs to maintain data integrity, and compartmentalize system assets to limit the damage."
+        },
+        {
+            "slide_number": 8,
+            "title": "Designing for Secure Deployment",
+            "content": [
+                "Include support for viewing and analyzing system configurations.",
+                "Minimize default privileges and follow the 'least privilege' principle.",
+                "Localize configuration settings related to the same system area.",
+                "Provide intuitive methods for addressing and remediating security vulnerabilities."
+            ],
+            "script": "Remember to Design for Secure Deployment! It's important to include support for analyzing system configurations and limiting default privileges, localizing configuration settings and providing ways to fix vulnerabilities."
+        },
+        {
+            "slide_number": 9,
+            "title": "System Survivability: Designing for Resilience",
+            "content": [
+                "System survivability focuses on the ability to continue delivering essential services during and after attacks.",
+                "It requires understanding which services are critical and how they can be protected.",
+                "Three strategies: resistance, recognition, and recovery contribute to creating a resilient system.",
+                "Compromised, but essential, services need recovery plans to ensure minimal disruption."
+            ],
+            "script": "Let\u2019s discuss System Survivability. Even with the best security, breaches can occur so it's essential to make systems resilient. This involves understanding critical services and establishing resistance, recognition and recovery strategies."
+        },
+        {
+            "slide_number": 10,
+            "title": "Strategies for Achieving System Survivability",
+            "content": [
+                "Resistance: Designing systems to withstand attacks, utilizing methods such as strong authentication.",
+                "Recognition: Implementing mechanisms to detect ongoing attacks and assess damage.",
+                "Recovery: Creating processes and tools to recover from attacks and restore normal services.",
+                "The goal is to ensure essential services remain operational, even if the entire system is not secure."
+            ],
+            "script": "For System Survivability, the key is to maintain operations even while under threat. One approach is 'resistance', so that it is difficult for malicious actors to penetrate the system. A second step is 'recognition', to understand that the system is being attacked, and a third is 'recovery', so that the system can quickly be restored to normal operation."
+        }
+    ]
+}

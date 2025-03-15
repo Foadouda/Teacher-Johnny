@@ -1,0 +1,145 @@
+{
+    "book_name": "Business Essentials",
+    "chapter": 11,
+    "title": "Marketing Processes and Consumer Behavior",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Defining Marketing and Its Value",
+            "content": [
+                "Marketing is about creating, communicating, and delivering value to stakeholders.",
+                "Value is the perceived benefits relative to costs for customers, partners, and society.",
+                "Benefits include product features, services, and intangible rewards like brand image.",
+                "Costs encompass price, time spent, and emotional stress associated with a purchase.",
+                "Relationship marketing focuses on building long-term connections with customers & suppliers."
+            ],
+            "script": "Welcome everyone. This first slide establishes the core definition of marketing, far beyond simple advertising. It's about creating real value. Value is the key; and benefits versus costs from the eyes of the customer. A long term is a good value. Building lasting relationships is key to success."
+        },
+        {
+            "slide_number": 2,
+            "title": "The Marketing Environment: A Dynamic Landscape",
+            "content": [
+                "The external marketing environment influences strategies and plans considerably.",
+                "Political-legal forces: Regulations, laws, and pro- or anti-business sentiment are crucial.",
+                "Sociocultural forces: Customs, values, demographics, and conduct expectations shape marketing.",
+                "Technological environment: Innovations impact value creation and new opportunities.",
+                "Economic environment: Economic conditions impact spending patterns and consumer behavior."
+            ],
+            "script": "Slide 2 details the dynamic marketing environment. Forces like political, economic, social, and technological all shape marketing plans. For success, businesses must adapt to these ever-changing forces to stay ahead. Keep an eye on laws, values, and trends as a business owner."
+        },
+        {
+            "slide_number": 3,
+            "title": "Navigating the Marketing Plan",
+            "content": [
+                "The marketing plan defines objectives, strategies, and activities to achieve marketing goals.",
+                "Begin by understanding that every well-developed marketing strategy begins with clearly set goals.",
+                "Goals must also focus on maintaining and enhancing the organization\u2019s competitive position.",
+                "Realistic plans depend on affordability, feasibility, and experience to build."
+            ],
+            "script": "A solid marketing plan outlines objectives, strategies, and activities to achieve goals. It is the road map for success. Without this plan, it would be very hard to reach those goals set. Plans also hinge on being realistic, affordable, and based on experience to build."
+        },
+        {
+            "slide_number": 4,
+            "title": "Target Marketing and Market Segmentation",
+            "content": [
+                "Target marketing focuses efforts on particular groups of people or organizations.",
+                "Market segmentation divides the market into customer types or segments, based on similar wants.",
+                "Product positioning fixes, adapts, and communicates the product's nature."
+            ],
+            "script": "This slide introduces target marketing. It focuses on specific groups. Market Segmentation divides those buyers. Product positioning shapes what customers think of your brand. To have a niche, target a group, and make a stand out image, is a perfect strategy."
+        },
+        {
+            "slide_number": 5,
+            "title": "Segmentation Strategies: Reaching the Right Customers",
+            "content": [
+                "Geographic: Segmentation based on regional/local variables affecting buying decisions.",
+                "Demographic: Uses traits like age, income, gender, ethnicity, and marital status to segment.",
+                "Geo-demographic: A combined strategy using geographic and demographic traits.",
+                "Psychographic: Considers lifestyles, interests, personalities, and attitudes.",
+                "Behavioral: Markets items based on how customers behave ( heavy users, seasonal buying)."
+            ],
+            "script": "There are many techniques to divide markets for target marketing. There are geographic, demographic, geo-demographic, and psychographic. Geographic and demographic are very basic to understand. Behavioral is about customer decisions."
+        },
+        {
+            "slide_number": 6,
+            "title": "The Power of Marketing Research",
+            "content": [
+                "Marketing research studies what customers need/want and how to fulfill those needs.",
+                "It boosts competitiveness by clarifying stakeholder interactions.",
+                "The information gained is used for planning, goal setting, and target market selection.",
+                "Results show customer responses to changes in the marketing mix."
+            ],
+            "script": "This side introduces marketing research. By studying what consumers want, companies can increase the odds of success. The information gained from research will make better plans, set achievable goals, and make better decisions."
+        },
+        {
+            "slide_number": 7,
+            "title": "The Marketing Research Process: A Step-by-Step Approach",
+            "content": [
+                "1. Study the current situation to define the need and what is being done.",
+                "2. Select a research method, effectiveness and cost for different methods.",
+                "3. Collect primary or secondary data through appropriate research.",
+                "4. Analyze the data to determine the most appropriate result.",
+                "5. Prepare a report about methodology, findings, and solutions."
+            ],
+            "script": "This side covers the five steps of the marketing research process. It is important to select a research method and collect primary and secondary data. The data from there needs to be analyzed, and finally, a report prepared. This is how to avoid the flaws that plague the company Coca-Cola."
+        },
+        {
+            "slide_number": 8,
+            "title": "Research Methods: Gathering Insights",
+            "content": [
+                "Observation: Watching and recording consumer behavior.",
+                "Survey: Collecting data through questionnaires, phone calls, or in-person interviews.",
+                "Focus group: Assembled participants discuss an issue or situation for research and insights.",
+                "Experimentation: Compares responses of different groups to test product versions."
+            ],
+            "script": "When researching, there are several methods to gather information from potential or existing customers. You can observe through surveys and by gathering focus groups. Remember, it is good to experiment with different focus groups to come up with a solution."
+        },
+        {
+            "slide_number": 9,
+            "title": "Understanding Consumer Behavior",
+            "content": [
+                "Consumer behavior is the decision process by which people buy and use products.",
+                "Psychological: Motivations, perceptions, ability to learn, and attitudes play a key factor.",
+                "Personal: Lifestyle, personality, and economic status factor into purchase decisions.",
+                "Social: Family, opinion leaders, and reference groups all influence behavior.",
+                "Cultural: Culture, subculture, and social class shape consumer behavior."
+            ],
+            "script": "This side focuses on consumer behavior. It is the study of consumer choices. There are psychological, personal, social, and cultural influences. Brand loyalty is key in this study."
+        },
+        {
+            "slide_number": 10,
+            "title": "The Consumer Buying Process",
+            "content": [
+                "1. Problem/Need Recognition: Consumer recognizes a need.",
+                "2. Information Seeking: Search for data from personal and public sources.",
+                "3. Evaluation of Alternatives: Analyze product attributes and the consideration set.",
+                "4. Purchase Decision: Decisions based on rational and emotional motives.",
+                "5. Postpurchase Evaluation: Assess products strengths and deficiencies after purchase."
+            ],
+            "script": "There are five stages in the consumer buying process. There are problem recognition and information seeking. It\u2019s about the best choice in an alternative. Buy something for emotional and/or rational purposes."
+        },
+        {
+            "slide_number": 11,
+            "title": "Organizational Marketing and B2B Buying Behavior",
+            "content": [
+                "Business marketing involves organizational or commercial markets.",
+                "Organizational markets are in four categories: services, industrial, reseller, and government.",
+                "B2B buyers purchase in large quantities and are professional, specialized, and well-informed.",
+                "Relationships between buyers and sellers are frequent and long-term."
+            ],
+            "script": "Moving to organizational marketing, the slide explains B2B buying behavior. Unlike consumer marketing, business marketing involves transactions between businesses, not to individual consumers. The B2B market is highly structured, and the parties are involved in large transactions."
+        },
+        {
+            "slide_number": 12,
+            "title": "Small Business and the Marketing Mix",
+            "content": [
+                "A skillful application of the marketing mix, is vital to success for smaller firms.",
+                "Small-business products have a distinct features to sell their product.",
+                "Pricing must accurately estimate operating expenses for success in small business.",
+                "Small businesses choose store location in order to retain customers.",
+                "Less expensive methods for promotion is critical for marketing in small business."
+            ],
+            "script": "We finish with small business and the marketing mix. Small businesses must be focused to make an efficient market. The promotion should be small and affordable, and the place of the store needs to be accessible for the customers. "
+        }
+    ]
+}
