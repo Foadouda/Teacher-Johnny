@@ -1,0 +1,119 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 22,
+    "title": "Project Management",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Project Management: Core Activities",
+            "content": [
+                "Project management focuses on planning, estimating, and scheduling to meet goals.",
+                "It also involves selecting and organizing a team with the right mix of skills and experience.",
+                "Risk management plays a critical role by identifying potential problems and planning responses.",
+                "Continuous monitoring and reporting on progress against established baselines are essential to success.",
+                "Effective communication with stakeholders ensures transparency and alignment throughout the project."
+            ],
+            "script": "Welcome to Chapter 22 on Project Management. This chapter explores the essential activities that ensure successful software project execution. We'll start by defining the core functions of project management, including planning, team organization, risk assessment, monitoring, and clear communication."
+        },
+        {
+            "slide_number": 2,
+            "title": "The Importance of Risk Management",
+            "content": [
+                "Risk management identifies potential project, product, and business risks proactively.",
+                "Risk identification uses checklists, brainstorming, and historical project data for comprehensive insights.",
+                "Risk analysis assesses likelihood and consequences, prioritizing significant risks for action.",
+                "Risk planning develops strategies for avoidance, minimization, and contingency to mitigate impact.",
+                "Continuous risk monitoring throughout the project life cycle enables adaptive responses to changing circumstances."
+            ],
+            "script": "Risk management is paramount. Here, we delve into identifying potential problems, analyzing their potential impact, planning risk mitigation strategies, and continuously monitoring risk factors throughout the project lifecycle. This ensures proactive responses to emerging threats."
+        },
+        {
+            "slide_number": 3,
+            "title": "Risk Types and Identification",
+            "content": [
+                "Technology risks cover database performance or defects in reusable components impacting quality.",
+                "People risks involve staff turnover, illness, or inadequate training affecting project execution.",
+                "Organizational risks relate to financial issues or management changes that disrupt project priorities.",
+                "Estimation risks come from underestimating project size, effort, or complexities, causing budget/schedule issues."
+            ],
+            "script": "Let's look at the different types of risks we need to consider. Technology risks, People risks, organizational risks and estimation risks. We'll see how project managers need to address these factors in order to keep the project on track."
+        },
+        {
+            "slide_number": 4,
+            "title": "Risk Analysis and Prioritization",
+            "content": [
+                "Assess the likelihood and severity for each risk, classifying them accordingly for prioritization.",
+                "Catastrophic and serious risks with a high probability of occurrence must be the focus of risk planning.",
+                "Document the assessments, create a risk table, and order according to the most significant risks.",
+                "This systematic method ensures a clear focus on the most impactful potential issues."
+            ],
+            "script": "After identifying risks, it's crucial to analyze their probability and potential impact. This allows you to prioritize them. Serious risks are intolerable, while other risks may be acceptable."
+        },
+        {
+            "slide_number": 5,
+            "title": "Risk Management Strategies",
+            "content": [
+                "Avoidance: Modify plans to reduce the likelihood of the risk occurring in the first place.",
+                "Minimization: Decrease the potential impact of the risk should it materialize.",
+                "Contingency plans: Have a 'Plan B' in place to address the risk if it becomes a reality.",
+                "Selecting the right strategy is essential for mitigating project disruptions and ensuring success."
+            ],
+            "script": "Now that we have a list of risks, we need to formulate mitigation strategies. Avoidance aims to prevent the risk altogether. Minimization seeks to reduce the potential impact, and contingency plans ensure readiness should the risk occur."
+        },
+        {
+            "slide_number": 6,
+            "title": "Risk Monitoring",
+            "content": [
+                "Regularly check assumptions about risks by tracking indicators such as staff morale.",
+                "This allows for re-assessment of risk probability and seriousness based on gathered insights.",
+                "Adjust project plans to reflect the updated understanding of project risks.",
+                "Risk monitoring is a crucial continuous process throughout the project lifecycle."
+            ],
+            "script": "Risk monitoring is crucial throughout the project. By continuously tracking indicators such as staff morale, code defects and requirements changes, we can proactively identify emerging risks and adapt our plans accordingly."
+        },
+        {
+            "slide_number": 7,
+            "title": "People Management: Recognizing Human Needs",
+            "content": [
+                "The manager's role is to understand and meet team member's needs.",
+                "Maslow\u2019s hierarchy of needs emphasizes satisfying social, esteem, and self-realization needs for the team.",
+                "Accommodating personal needs leads to improved group dynamic and productivity.",
+                "Treat every team member equally and foster an inclusive environment."
+            ],
+            "script": "Let's shift our focus to people management. Project managers must understand the diverse needs of their team members. These needs are part of Maslow's theory."
+        },
+        {
+            "slide_number": 8,
+            "title": "Maintaining Motivation",
+            "content": [
+                "Foster team cohesion to create a positive and motivating work environment.",
+                "Recognize individual achievements to promote a sense of value and recognition.",
+                "Provide opportunities for learning and skill development to boost team morale and effectiveness.",
+                "Address issues of loss of interest by finding different responsibilities and training"
+            ],
+            "script": "What are the keys to maintaining high motivation? Foster a team environment. Recognize contributions, and provide opportunities for continued skill development. Acknowledge and address any issues of lost motivation by helping to find other roles or responsibilities."
+        },
+        {
+            "slide_number": 9,
+            "title": "Understanding People's Motivation",
+            "content": [
+                "Task-oriented individuals: Motivated by the technical challenge of development.",
+                "Self-oriented individuals: Motivated by personal success and career progression.",
+                "Interaction-oriented individuals: Motivated by teamwork, group goals, and communication.",
+                "A mix of these orientations is needed to create effective teams."
+            ],
+            "script": "Team members are motivated by different things. Task-oriented people enjoy overcoming technical hurdles. Self-oriented individuals are driven by personal achievements, and interaction-oriented team members thrive in a team. A mix of all three types of individuals is crucial for building a strong team."
+        },
+        {
+            "slide_number": 10,
+            "title": "Building Effective Teams",
+            "content": [
+                "A cohesive team, where the team is more important than any individual can improve performance.",
+                "Inclusiveness supports teamwork and an employee's commitment to the team and project goals.",
+                "Communications must be effective, flowing up, down and across the group for better productivity.",
+                "Teams can use social media and direct communications to facilitate group work."
+            ],
+            "script": "To achieve good teamwork, the group needs to value the team's output more than any one individual. Inclusiveness supports this, and makes all members feel that they are valued and important to the project output."
+        }
+    ]
+}

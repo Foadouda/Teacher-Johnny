@@ -1,0 +1,152 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 6,
+    "title": "Architectural design",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Introduction to Architectural Design",
+            "content": [
+                "Architectural design is a crucial stage transforming requirements into a system structure.",
+                "It identifies main structural components and their relationships, serving as a blueprint.",
+                "The architectural model describes the system's organization and component communication patterns.",
+                "Effective architectural design ensures system performance, reliability, security, and maintainability."
+            ],
+            "script": "Welcome to the presentation on Architectural Design! This chapter focuses on transforming software requirements into an organized system structure. We'll explore how architectural design identifies the key components, their inter-relationships, and how all of this is documented in an architectural model.  This model is our blueprint and it is critical for ensuring the overall performance, reliability, security, and maintainability of the final system."
+        },
+        {
+            "slide_number": 2,
+            "title": "Key Decisions in Architectural Design",
+            "content": [
+                "Is there a suitable generic application architecture that can be used as a base for the system?",
+                "How will the system be distributed across multiple cores or processors for optimal performance?",
+                "What architectural patterns are the most suitable for structuring the identified components?",
+                "What approach will be used for decomposing components into more manageable sub-components?"
+            ],
+            "script": "Now we will be discussing the major design decisions. During architectural design, it's important to consider whether a generic architecture exists that can be reused. Key considerations also include how the system will be distributed across cores/processors and the most appropriate architectural patterns for component structuring. Finally, we will examine how components should be further decomposed into more manageable parts."
+        },
+        {
+            "slide_number": 3,
+            "title": "Further Key Architectural Design Decisions",
+            "content": [
+                "How to ensure the operations of components are controlled in an effective and coherent manner.",
+                "What architectural organization best facilitates meeting the system's non-functional requirements?",
+                "How to thoroughly evaluate the architectural design to identify potential problems early.",
+                "How to document the architecture to facilitate communication and future maintenance activities."
+            ],
+            "script": "Building on the previous points, it is crucial to choose the best strategy for controlling component operations while meeting the overall non-functional requirements. The architectural design process also includes an evaluation stage, where the architect identifies potential design problems.  Finally, we must consider how to best document the architecture so that is easily understood by all and is accessible to future maintenance teams."
+        },
+        {
+            "slide_number": 4,
+            "title": "Architectural Views: Multiple Perspectives",
+            "content": [
+                "Architectural views are vital as a single view cannot express all relevant information.",
+                "A dynamic view illustrates the phases of the model over time.",
+                "A static view shows the activities within the development process.",
+                "A practice view recommends good software engineering practices.",
+                "Different stakeholders may require different views to understand the system."
+            ],
+            "script": "This slide introduces the idea of architectural views. It's really important that we understand that a single diagram is not enough to capture the entirety of a system architecture. We need to create different diagrams that illustrate the different perspectives. Examples of these include the dynamic view, the static view, and the practice view. By using multiple views, we can communicate more effectively with the different stakeholders in the project."
+        },
+        {
+            "slide_number": 5,
+            "title": "Common Architectural Patterns: Structuring Systems",
+            "content": [
+                "Architectural patterns provide reusable solutions to recurring design problems.",
+                "These patterns offer a proven approach which can provide known benefits and trade-offs.",
+                "Common patterns include layered architecture, repository, client-server, and pipe and filter.",
+                "Different patterns suit different applications depending on non-functional requirements."
+            ],
+            "script": "Architectural patterns represent stylized, abstract descriptions of proven design practices. Architectural patterns give us proven approaches to solve problems, along with well-known trade-offs. We will be looking at patterns such as layered architecture, repository, client-server, and pipe and filter. Each pattern is more or less applicable, depending on the specific characteristics and, in particular, the non-functional requirements."
+        },
+        {
+            "slide_number": 6,
+            "title": "Layered Architecture Pattern",
+            "content": [
+                "Organizes functionality into layers; each layer relies only on the layer immediately below.",
+                "Supports incremental development and replacement of layers.",
+                "Not useful for high-level layer needing to interact directly with a lower-level layer.",
+                "Includes user interface layer, core logic, system utilities, and system support layers."
+            ],
+            "script": "Layered architecture organizes the system into distinct layers, with each layer only accessing the services of the layer immediately beneath it. This architecture supports incremental development and allows you to replace entire layers without affecting others. This architecture may become problematic if a high-level layer needs to interact directly with a very low-level layer. In this situation, we'll have to consider alternative architectures."
+        },
+        {
+            "slide_number": 7,
+            "title": "Repository Pattern",
+            "content": [
+                "A central repository manages all system data, accessible by all components.",
+                "Components are independent and communicate only through the repository.",
+                "Useful for managing large volumes of data, but the repository becomes a single point of failure.",
+                "Data consistency and distribution across multiple machines may also be challenging."
+            ],
+            "script": "Repository pattern manages all data in a central repository that is accessible to all components. The advantage of the repository pattern is that it promotes component independence, allowing you to make changes to those components without affecting others. However, the repository also becomes a single point of failure. Furthermore, it can become more difficult to ensure data consistency and scalability with this pattern."
+        },
+        {
+            "slide_number": 8,
+            "title": "Client-Server Pattern",
+            "content": [
+                "System is organized into services (servers) and clients that access these services.",
+                "Servers can be distributed across a network for scalability and resource sharing.",
+                "Each service represents a single point of failure.",
+                "Performance depends on both the network and the system resources."
+            ],
+            "script": "The client-server pattern divides the system into services (servers) and clients. Servers can be distributed across a network, improving scalability and allowing you to share resources. Each service, however, becomes a single point of failure and the overall performance of the system becomes dependent on both the network and the individual system resources."
+        },
+        {
+            "slide_number": 9,
+            "title": "Pipe and Filter Pattern",
+            "content": [
+                "Each processing component (filter) transforms data; data flows between components (pipes).",
+                "Easy to understand and promotes reuse of transformations.",
+                "The workflow matches the structure of many business processes.",
+                "Agreed data format is essential between components, can increase system overhead."
+            ],
+            "script": "In a pipe and filter pattern, each component filters its input and presents that output to other components. The strength of this pattern is that it's easy to understand and encourages the reusability of data transformations. Workflow closely matches the structure of many business processes; however, we must use a standardized data format across all of the components and it can increase system overhead."
+        },
+        {
+            "slide_number": 10,
+            "title": "Application Architectures",
+            "content": [
+                "Application architectures define the structure and organization of specific application types.",
+                "Common architectures exist for transaction processing and language processing systems.",
+                "These provide a starting point for design, a design checklist, and can organize development work.",
+                "This chapter discusses transaction processing and language processing systems architectures."
+            ],
+            "script": "Application architectures describe the structure and organization of particular types of application systems. By using these architectures as a starting point, you can create design checklists and organize development work more effectively. The chapter will now move on to discussing application architectures related to transaction processing and language processing."
+        },
+        {
+            "slide_number": 11,
+            "title": "Transaction Processing Systems",
+            "content": [
+                "Database-centered applications processing user requests and updating information.",
+                "Essential goal: user actions shouldn't interfere with each other; maintain data integrity.",
+                "Organized into input/output processing, application-specific logic, and a transaction manager.",
+                "Example applications include interactive banking, e-commerce, and booking systems."
+            ],
+            "script": "Transaction processing systems are database-centered applications that process user requests and update information. A key requirement is that user actions should not interfere with each other, maintaining the overall data integrity. Systems are organized into input/output processing, application-specific logic, and a transaction manager. Common applications include interactive banking, e-commerce, and booking systems."
+        },
+        {
+            "slide_number": 12,
+            "title": "Language Processing Systems",
+            "content": [
+                "Translate natural or artificial languages into other representations.",
+                "Compilers translate high-level language programs into machine code.",
+                "Also includes systems interpreting command languages or markup languages like XML.",
+                "Architecture involves source language instructions, translator, abstract machine, and interpreter."
+            ],
+            "script": "Finally, let's examine the architecture of language processing systems. These architectures deal with translating natural and artificial languages into other representations. Well-known examples include compilers, but language processing systems are also used in markup languages and for interpreting command languages. A typical architecture involves an abstract machine, a translator, and an interpreter."
+        },
+        {
+            "slide_number": 13,
+            "title": "Summary of Architectural Design",
+            "content": [
+                "Architectural design transforms requirements into a system structure.",
+                "Key decisions include component interaction, distribution, and architectural patterns.",
+                "Different architectural views are useful for different stakeholders and perspectives.",
+                "Architectural patterns provide proven solutions to recurring problems.",
+                "Application architectures offer templates for specific application types."
+            ],
+            "script": "To conclude, remember that architectural design is about transforming system requirements into a blueprint. During that process, key decisions must be made around components, distribution, and architectural patterns. It's crucial to consider the different perspectives and know that architectural patterns can provide proven solutions to common problems and application architectures can offer templates for specific application types."
+        }
+    ]
+}

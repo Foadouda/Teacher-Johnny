@@ -1,0 +1,63 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 20,
+    "title": "Embedded Software",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Introduction to Embedded Systems",
+            "content": [
+                "Embedded systems integrate hardware and software for dedicated functions, often real-time responses.",
+                "These systems are pervasive, controlling devices from simple appliances to complex industrial machinery.",
+                "Key considerations include resource constraints (memory, processing power, battery life), and reliability.",
+                "Real-time requirements necessitate timely responses to external events for correct operation."
+            ],
+            "script": "Good morning! This presentation focuses on Chapter 20, 'Embedded Software'. We will begin by understanding the basic nature of embedded systems.  These integrate hardware and software, dedicating resources to handle specific tasks. I'll explain where we see them and why resource constraints and real-time needs are so important."
+        },
+        {
+            "slide_number": 2,
+            "title": "Embedded System Design Process",
+            "content": [
+                "Platform selection is crucial, considering hardware, RTOS, and middleware based on resource, power, and timing needs.",
+                "Stimulus/response identification defines the system's reactions to external triggers from sensors, actuators.",
+                "Timing analysis ensures deadlines are met, considering worst-case execution times and process scheduling.",
+                "Process, algorithm, and data design define processes, computational methods, data transfer and shared structure."
+            ],
+            "script": "Next, let's dive into the design process itself.  Key steps involve selecting the execution platform (hardware and RTOS), and we will see how platform factors greatly determine the design. Other factors include detailing external triggers, performing timing analysis, and developing the process architecture."
+        },
+        {
+            "slide_number": 3,
+            "title": "Architectural Patterns for Embedded Systems",
+            "content": [
+                "Architectural patterns provide proven solutions for common challenges in embedded system design.",
+                "Observe and React pattern monitors sensors and responds to exceptional events with alerts or actions.",
+                "Environmental Control pattern manages hardware devices based on sensory input to control the system's environment.",
+                "Process Pipeline pattern enables rapid data processing by breaking down tasks into a series of transformations.",
+                "These patterns are a starting point, requiring optimization based on specific system requirements."
+            ],
+            "script": "Now we will explore some common architectural patterns used.  We'll cover patterns such as 'Observe and React', which is essential for monitoring, the 'Environmental Control' pattern for managing external environments, and the 'Process Pipeline' pattern for rapid data transformation."
+        },
+        {
+            "slide_number": 4,
+            "title": "Real-Time Operating Systems (RTOS)",
+            "content": [
+                "RTOS are specifically designed to manage processes and resources in real-time embedded systems.",
+                "Key RTOS components: real-time clock, interrupt handler, scheduler, resource manager, and dispatcher.",
+                "Schedulers ensure processes are executed according to timing constraints and priorities.",
+                "RTOS features minimize latency and guarantee timely responses, crucial for system correctness."
+            ],
+            "script": "Next, we will look at real-time operating systems. These are crucial components that directly address timing requirements. We will explore the clock mechanisms, interrupt handlers, and process schedulers that make them so vital in the embedded world."
+        },
+        {
+            "slide_number": 5,
+            "title": "Timing Analysis for Reliability",
+            "content": [
+                "Timing analysis assesses if deadlines can be met, based on execution times and process scheduling.",
+                "Worst-case execution time (WCET) ensures reliable operation even under peak loads and conditions.",
+                "Real-time scheduling guarantees that processes are started in time to meet strict deadlines.",
+                "Inadequate planning can force a redesign if timing requirements cannot be achieved."
+            ],
+            "script": "Let's discuss timing analysis. This is another critical task for the designer. Its main goal is to ensure that strict time requirements are met. We will look at WCET, execution time and how, under a limited timeframe, there may be a forced system redesign."
+        }
+    ]
+}

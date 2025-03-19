@@ -1,0 +1,130 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 11,
+    "title": "Dependability and Security",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Introduction to Dependability and Security",
+            "content": [
+                "Dependability and security are crucial for trustworthy software in a connected world.",
+                "Societies rely on software; failures can lead to significant economic and reputational losses.",
+                "Dependability focuses on availability, reliability, safety, and security dimensions.",
+                "Security protects against intrusions, availability ensures access, reliability ensures correctness, and safety avoids harm."
+            ],
+            "script": "Good morning, everyone. Today, we'll be diving into a critical aspect of software engineering: dependability and security. We'll define what these terms mean, why they matter, and introduce the four key dimensions that make up a dependable system. This provides the foundation for the rest of this chapter."
+        },
+        {
+            "slide_number": 2,
+            "title": "Interdependence of Dependability Properties",
+            "content": [
+                "Dependability properties are interconnected, enhancing overall system trustworthiness and resilience.",
+                "Safety depends on availability and reliability; system access must be secure to prevent data corruption.",
+                "Reliability can be affected by intruders corrupting data, highlighting the need for security.",
+                "Security, reliability, availability, and safety are not isolated concerns but intertwined aspects of a system."
+            ],
+            "script": "Now, let's discuss how the four principal dimensions of dependability influence each other. We will discuss their interdependencies and how these are intertwined aspects of the system and not isolated concerns. Note the discussion of data integrity and system security. "
+        },
+        {
+            "slide_number": 3,
+            "title": "Achieving Dependability: A Three-Pronged Approach",
+            "content": [
+                "Achieving dependability involves proactive measures, focusing on prevention, detection, and mitigation.",
+                "Fault avoidance minimizes errors through best practices during specification and development.",
+                "Fault detection and removal relies on verification and validation to discover and correct defects early.",
+                "Fault tolerance ensures system functionality continues despite errors, providing resilience."
+            ],
+            "script": "This slide outlines the fundamental strategies for building dependable systems. Each of these approaches helps in minimizing the impact of errors and ensuring the system can handle failures. We'll explore each of these in more detail throughout this chapter."
+        },
+        {
+            "slide_number": 4,
+            "title": "Availability and Reliability: Definitions",
+            "content": [
+                "Availability measures the probability of a system being operational and accessible when required.",
+                "Reliability assesses the probability of a system delivering services correctly over time.",
+                "High availability is crucial for systems needing continuous access; reliability is vital for systems where consequences of failure are high.",
+                "The metric MTTF, mean time to failure, is used, where large MTTF is a sign of high reliability."
+            ],
+            "script": "Next, we'll focus on two critical dependability properties: availability and reliability. This slide provides precise definitions of each and how they relate to different types of systems and their specific requirements. "
+        },
+        {
+            "slide_number": 5,
+            "title": "The Importance of Defining 'Reliability'",
+            "content": [
+                "Reliability depends on the operational environment and the intended purpose of the system.",
+                "What is 'reliable' may vary from office to university contexts due to usage patterns.",
+                "Failures in core systems should receive the most testing.",
+                "Specification errors in design and the program code also compromise system reliability."
+            ],
+            "script": "This slide emphasizes that reliability isn't just an inherent property, but is deeply tied to how the system is actually used. Therefore, defining that the intended purpose and operational context is needed. It covers how the system performs in an intended usage. This section also covers specification errors and failures."
+        },
+        {
+            "slide_number": 6,
+            "title": "Faults, Errors, and Failures: Distinctions",
+            "content": [
+                "A fault is a system defect that can lead to an error; it\u2019s a problem in the code or design.",
+                "An error is an erroneous system state arising from a fault; it\u2019s the manifestation of a problem.",
+                "A failure occurs when a system does not deliver its specified services correctly.",
+                "Faults don't always cause errors, and errors don't always lead to failures, especially with protections.",
+                "Inherent tolerance is important in building these safeguards into the design."
+            ],
+            "script": "It's important to be clear about the terminology used when discussing dependability. On this slide we define and differentiate between 'faults', 'errors', and 'failures'. Each concept represent the manifestation of the failure across the lifecycle of the code base. "
+        },
+        {
+            "slide_number": 7,
+            "title": "Safety: Avoiding Harm",
+            "content": [
+                "Safety is paramount in critical systems; they must not cause harm to people or the environment.",
+                "Safety-critical systems involve software controlling medical devices, aircraft, etc., where failure has high consequences.",
+                "Safety requirements are protection-oriented, focused on avoiding accidents rather than normal function.",
+                "There's a balance to strike between safety and functionality to avoid overprotection issues."
+            ],
+            "script": "Now, let's turn to the concept of safety, which is of uttermost importance in critical systems. This slide defines what it means for a system to be safe, what factors cause for safety and describes that the design must strike a balance between safety measures and system use."
+        },
+        {
+            "slide_number": 8,
+            "title": "Safety Strategies",
+            "content": [
+                "Systems implement hazard avoidance by preventing hazardous states from occurring in the first place.",
+                "Hazard detection and removal involve detecting and neutralizing hazardous conditions before accidents occur.",
+                "Damage limitation minimizes the consequences of accidents with protection features.",
+                "A combination of all the strategies is usually used, because safety-related procedures must always be followed."
+            ],
+            "script": "To achieve safety, we often use a combination of approaches. In this slide we cover three complementary strategies that designers must implement in safety-critical systems: hazard avoidance, hazard detection and removal, and damage limitation. A well designed system should implement all of these."
+        },
+        {
+            "slide_number": 9,
+            "title": "Security: Protecting Against Attacks",
+            "content": [
+                "Security protects against external attacks, both accidental and deliberate, aiming to compromise systems or data.",
+                "Security is crucial for military, financial, and systems handling confidential information.",
+                "Security aims to prevent unauthorized access, modification, or denial of service.",
+                "Security works in an environment where there is an intelligent adversary trying to circumvent those measures."
+            ],
+            "script": "Now, we'll examine security, which focuses on protecting systems from a malicious user trying to circumvent the systems operation. We will define what constitutes a secure system and how it addresses not only internal but external threats. "
+        },
+        {
+            "slide_number": 10,
+            "title": "Security Threats and Controls",
+            "content": [
+                "Threats to confidentiality can expose sensitive data to unauthorized parties, for example a data breach.",
+                "Threats to integrity damage or corrupt the system, potentially invalidating or harming it.",
+                "Threats to availability restrict authorized user access, making a system unusable.",
+                "Controls are protective measures, encryption for example, implemented to reduce the impact from those threats."
+            ],
+            "script": "Security threats manifest in different forms. We will examine three important threat categories along with the high level means to mitigate those threats. These threats are confidentiality, integrity, and availability. Controls are the counter measures that address these. "
+        },
+        {
+            "slide_number": 11,
+            "title": "Key Takeaways",
+            "content": [
+                "Dependability and security are essential for trustworthy software systems and should be a major consideration.",
+                "The dimensions of dependability include availability, reliability, safety, and security.",
+                "Achieving dependability requires a combination of fault avoidance, fault detection, and fault tolerance techniques.",
+                "Security focuses on designing systems to resist and recover from malicious attacks.",
+                "The correct actions to achieve dependability depend on system characteristics and stakeholder expectations."
+            ],
+            "script": "In summary, this chapter introduced the core concepts of dependability and security, emphasizing their importance in modern software engineering. We explored various dimensions and strategies for achieving dependable systems. Always keep in mind that context is key when designing and implementing these systems."
+        }
+    ]
+}

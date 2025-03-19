@@ -1,0 +1,146 @@
+{
+    "book_name": "Business Essentials",
+    "chapter": 7,
+    "title": "Operations Management and Quality",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Operations Management Today",
+            "content": [
+                "Operations encompasses all activities in creating goods and services.",
+                "Service operations are intangible, depend on human interaction, and involve customers.",
+                "Goods operations are tangible, may be mass-produced, and do not require direct interaction.",
+                "The US economy has seen growth in both sectors with more employment in the service sector. ",
+                "Operations managers must create value by ensuring efficient resource transformation."
+            ],
+            "script": "Welcome to our first slide on Operations Management. We'll be looking at what 'operations' means in today's business context.  We'll define both service and goods operations, highlighting their key differences, and emphasize how operations management is all about creating customer value through efficient resource transformation. As you will see, most employment is in the service sector."
+        },
+        {
+            "slide_number": 2,
+            "title": "Utility: The Value in Operations",
+            "content": [
+                "Operations create three types of utility for customers: form, time, and place.",
+                "Form utility converts resources into finished goods and services customers desire.",
+                "Time utility makes products available when customers want them.",
+                "Place utility makes products easily accessible to customers at convenient locations.",
+                "Providing the value of these utilities is the systematic direction of operations management."
+            ],
+            "script": "This slide focuses on the different ways operations management creates value for customers.  We'll explain three kinds of utilities: form, time, and place and see that operations management directs activities to transform resources into finished products to maximize value for the final customer."
+        },
+        {
+            "slide_number": 3,
+            "title": "Business Strategy and Operations",
+            "content": [
+                "A company\u2019s business strategy shapes operations capabilities that align with target markets.",
+                "Toyota competes on quality, thus prioritizing this in their operations with high standards.",
+                "Save-A-Lot focuses on low prices, optimizing operations for efficiency and cost minimization.",
+                "3M emphasizes flexibility with adaptable facilities, operations personnel thriving on change.",
+                "FedEx prioritizes dependability, requiring specialized operations with air force, ground transport."
+            ],
+            "script": "This slide shows the link between business strategy and operations.  A company chooses a target market, develops a business strategy for appealing to that market, and then must make sure its operations align.  We'll explore several examples."
+        },
+        {
+            "slide_number": 4,
+            "title": "Key Factors in Operations Planning",
+            "content": [
+                "Capacity planning estimates production volume while balancing supply with demand.",
+                "Location planning considers access to resources, customers, and transportation.",
+                "Layout planning optimizes facility arrangements to enhance workflow and efficiency.",
+                "Quality planning establishes methods to consistently meet specific quality standards.",
+                "Methods planning identifies efficient procedures for performing each production step."
+            ],
+            "script": "This slide covers the key factors that operations managers consider.  We'll highlight several types of planning including capacity, location, layout, quality, and methods and see how planning in these key areas is central to how an organization operates."
+        },
+        {
+            "slide_number": 5,
+            "title": "Operations Scheduling: Planning Timetables",
+            "content": [
+                "Operations scheduling creates timetables to coordinate various production activities.",
+                "The master operations schedule outlines which products will be produced and when.",
+                "Detailed schedules specify daily assignments and start/stop times for each job.",
+                "Staff schedules define working times for employees on each work shift.",
+                "Project schedules provide coordination to complete large-scale projects."
+            ],
+            "script": "In this slide we'll be looking at the function of operations scheduling.  We'll be breaking down the different components including the master, detailed, staff, and project schedules and discussing how those items relate to operations."
+        },
+        {
+            "slide_number": 6,
+            "title": "Controlling Operations: Ensuring Efficiency",
+            "content": [
+                "Operations control monitors performance by comparing results against plans and schedules.",
+                "Operations control is achieved through materials management and quality control.",
+                "Materials management involves planning and controlling the flow of resources.",
+                "Quality control involves actions to ensure products meet specific standards."
+            ],
+            "script": "This slide focuses on operations control. We'll see that operations control has a goal of helping organizations ensure efficiency. We'll see how this control includes the activities of materials management and quality control."
+        },
+        {
+            "slide_number": 7,
+            "title": "Materials Management: Coordinating Resources",
+            "content": [
+                "Materials management involves managing the flow of materials.",
+                "Supplier selection involves choosing and managing service and materials suppliers.",
+                "Purchasing refers to acquiring raw materials and services required for production.",
+                "Transportation involves moving resources to the producer and finished goods to customers.",
+                "Inventory control includes receiving, storing, handling, and counting all materials."
+            ],
+            "script": "This slide covers materials management, focusing on what we know about managing materials and resources and focusing on supplier selection, purchasing, transportation, warehousing, and inventory control."
+        },
+        {
+            "slide_number": 8,
+            "title": "Lean Production: Streamlining for Efficiency",
+            "content": [
+                "Lean production systems are designed for smooth production flows and avoiding inefficiencies.",
+                "Just-in-time (JIT) production delivers materials precisely when needed for each stage.",
+                "JIT minimizes inventory costs, reduces storage, and promotes smooth movement.",
+                "JIT emphasizes continuous improvement by identifying and resolving disruptions."
+            ],
+            "script": "Here we'll look at the system of lean production, which has a goal of efficient resources and the minimization of inventory costs. JIT delivers raw materials as they are needed, while the other steps minimize costs and allow for quick identification of possible problems."
+        },
+        {
+            "slide_number": 9,
+            "title": "Quality Control: Meeting Standards",
+            "content": [
+                "Quality control ensures operations produce goods and services meeting specific standards.",
+                "Quality is the combination of product characteristics that satisfy stated or implied needs.",
+                "Performance refers to how well a product does what it is supposed to do.",
+                "Consistency reflects the sameness of product quality from unit to unit."
+            ],
+            "script": "This slide explores the concept of quality control.  We'll define 'quality' as the combination of a product's characteristics that meet customer needs and look at components including performance and consistency."
+        },
+        {
+            "slide_number": 10,
+            "title": "Total Quality Management (TQM): Continuous Improvement",
+            "content": [
+                "TQM includes activities for delivering high-quality goods/services into the marketplace.",
+                "TQM begins with strong leadership and the desire for continuous product improvements.",
+                "TQM evaluates the costs of poor quality to identify sources and assign responsibility.",
+                "TQM fosters quality ownership among employees and suppliers to promote accountability."
+            ],
+            "script": "Here we'll discuss the concept of Total Quality Management, or TQM.  This approach focuses on continuous improvement and encompasses all aspects of a business as well as considering all stakeholders: customers, suppliers, and employees."
+        },
+        {
+            "slide_number": 11,
+            "title": "Tools for Total Quality Management",
+            "content": [
+                "Value-added analysis evaluates work activities to determine value for customers.",
+                "Quality improvement teams define, analyze, and solve production problems.",
+                "Getting closer to the customer gathers insight about what customers really want.",
+                "ISO 9000 certifies quality management requirements are met.",
+                "Business process reengineering fundamentally rethinks and redesigns business processes."
+            ],
+            "script": "This slide focuses on the tools for TQM.  These methods are designed to promote continuous improvements.  They include value-added analysis, quality improvement teams, customer involvement, ISO certification, and reengineering business processes."
+        },
+        {
+            "slide_number": 12,
+            "title": "Supply Chain Strategy",
+            "content": [
+                "The supply chain consists of all activities that work together to create a product.",
+                "Supply chain management improves overall flow through a system of companies working together.",
+                "Outsourcing expands supply chains and depends on expertise in multiple areas.",
+                "SCM is the goal of improving customer value for the product."
+            ],
+            "script": "Let's turn now to a discussion of supply chains, which work to improve operations and, specifically, improving customer value by connecting companies and streamlining resources."
+        }
+    ]
+}

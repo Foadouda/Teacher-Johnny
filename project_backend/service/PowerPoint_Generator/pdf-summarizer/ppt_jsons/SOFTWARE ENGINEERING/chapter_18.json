@@ -1,0 +1,141 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 18,
+    "title": "Distributed Software Engineering",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Introduction to Distributed Systems",
+            "content": [
+                "Distributed systems use multiple computers to achieve a common goal, offering scalability and resource sharing.",
+                "They present a single, coherent system view to users, masking the underlying complexity and distribution.",
+                "Software engineering for distributed systems faces unique challenges like network latency, partial failures, and concurrency.",
+                "Addressing these challenges is crucial for reliable and scalable system operation across diverse environments."
+            ],
+            "script": "Hello everyone, welcome to this presentation on distributed software engineering. In this first slide, we\u2019ll define what distributed systems are all about. These systems leverage multiple interconnected computers, offering immense potential for scalability and efficient resource allocation. The key is to make this distribution transparent to the user, presenting a unified experience. However, this also brings unique engineering hurdles we'll explore in the coming slides, including the need to manage unreliable networks and the added complexity of coordinating independent components."
+        },
+        {
+            "slide_number": 2,
+            "title": "Key Issues in Distributed Systems",
+            "content": [
+                "**Transparency**: The goal is a unified system view, hiding distribution complexity from the user.",
+                "**Openness**: Utilizing standard protocols to enable interoperability and integration with diverse technologies.",
+                "**Scalability**: Designing the system to handle increasing load and user base effectively and efficiently.",
+                "**Security**: Implementing robust security policies across independently managed components and networks.",
+                "**Quality of Service**: Guaranteeing dependable service delivery within acceptable response times is essential.",
+                "**Failure Management**: Detecting, containing, and recovering from failures in a distributed environment is key."
+            ],
+            "script": "Now that we have a basic understanding of distributed systems, let's delve into the essential considerations that shape their design. First, transparency aims to hide the distributed nature of the system, presenting a seamless experience. Openness is key for integration with various technologies, while scalability ensures the system can grow with demand. Security, Quality of Service, and robust Failure Management strategies are all crucial to designing reliable and trustworthy distributed systems."
+        },
+        {
+            "slide_number": 3,
+            "title": "Client-Server Computing: A Foundation",
+            "content": [
+                "Client-server architecture distributes responsibilities between service providers (servers) and service consumers (clients).",
+                "Clients initiate requests, and servers respond with data or services, simplifying resource management and access.",
+                "Client-server systems may be structured with several logical layers, which include presentation, data management, application processing, and databases.",
+                "Choosing the correct distribution scheme is important when developing systems."
+            ],
+            "script": "Let's move on to Client-Server Computing. At its core, this model splits the workload. Servers act as service providers, and Clients make requests for those services. It simplifies resource access and management. Think of it as a layered structure: presentation, data management, application logic, and data. The way we distribute these layers impacts factors like performance and manageability."
+        },
+        {
+            "slide_number": 4,
+            "title": "Thin vs. Fat Client Architectures",
+            "content": [
+                "**Thin Client**: Places presentation on the client and data management, the application, and the database on the server.",
+                "It benefits from simplified client management, reducing deployment and maintenance overhead.",
+                "The system may have heavy processing and network load.",
+                "**Fat Client**: Distributes application processing and presentation to the client, data management, and databases to the server.",
+                "Reduces the processing load on the server and can operate well without permanent network access, it has management complexities."
+            ],
+            "script": "We can have two distinct variations. Thin clients do only presentation on the client side and handle all the heavy lifting on the server side. Benefit: simplified client management. Trade-off: heavy load for the server. Then we have fat clients that distribute application processing and presentation, which lightens server workload but complicates system management due to software installation and maintenance requirements on each client."
+        },
+        {
+            "slide_number": 5,
+            "title": "Architectural Patterns for Distributed Systems",
+            "content": [
+                "Architectural patterns are reusable solutions to common design problems in distributed systems.",
+                "Patterns offer proven strategies for balancing performance, dependability, security, and manageability.",
+                "Understanding these patterns allows engineers to make informed choices to achieve desired system qualities.",
+                "Selecting the right pattern is crucial for achieving target qualities like resilience and optimal throughput."
+            ],
+            "script": "In distributed software, how do we actually structure our applications? Well, architectural patterns are reusable solutions for common distributed design dilemmas. Each pattern represents a tested approach. By understanding these patterns, engineers can choose the best approach to balance key factors, and achieve the system's performance, security, and scalability needs."
+        },
+        {
+            "slide_number": 6,
+            "title": "Master-Slave Architecture",
+            "content": [
+                "The system's task and process responsibilities are divided between two sections.",
+                "Master and Slave are the two processing components.",
+                "The master process handles coordination and communication and slave processes carry out special actions.",
+                "Used in real-time systems requiring guaranteed response times."
+            ],
+            "script": "First up: Master-Slave Architecture. A master component coordinates the work, and one or more slave components execute the instructions from the master. This is suitable for tasks that can be easily divided and delegated, particularly in scenarios with guaranteed response times, such as real-time embedded systems."
+        },
+        {
+            "slide_number": 7,
+            "title": "Two-Tier Client-Server Architecture",
+            "content": [
+                "The design is a single logical server plus an indefinite number of clients that use the server.",
+                "A simple architecture can be developed to make good commitments, and the model makes the process very visible.",
+                "Best for simple systems where a central security approach is needed, requiring only encrypted communication."
+            ],
+            "script": "The Two-Tier Client-Server Architecture has one main server providing services to multiple clients. The emphasis is to centralize the system for security reasons. The focus is encryption of the communications rather than having lots of systems."
+        },
+        {
+            "slide_number": 8,
+            "title": "Multi-Tier Client-Server Architecture",
+            "content": [
+                "The presentation, data management, application processing, and database are separate processes that can execute on different processors.",
+                "This approach is highly scalable for systems that need high numbers of requests processed by the server.",
+                "From a technical perspective, this approach has its best fit in large interactive applications."
+            ],
+            "script": "The Multi-Tier Client-Server Architecture separates processes so that the presentation, the data management, application processing, and the database all execute on different processors. It is highly scalable for systems that have many processes being processed by the server. Overall, this approach is best used in large interactive applications."
+        },
+        {
+            "slide_number": 9,
+            "title": "Distributed Component Architecture",
+            "content": [
+                "The systems consist of services, without attempting to define the services for layers.",
+                "The system can use its components to communicate using remote procedure or method calls.",
+                "Is highly scaleable, open, and flexible because of the addition of components.",
+                "This system is best for integrating databases or when resources from different systems need to be combined."
+            ],
+            "script": "The last type of architecture is the Distributed Component Architecture. The system is arranged into interacting components that offer interfaces for a set of services. This architecture is incredibly flexible and open and can also be scaled well. This works best when databases are being integrated and the system is trying to combine various resources."
+        },
+        {
+            "slide_number": 10,
+            "title": "Peer-to-Peer Architecture",
+            "content": [
+                "The architecture is designed to take advantage of computational power, rather than having specified servers.",
+                "Great if there is low need for centralized storage or management.",
+                "These systems connect and exchange data directly.",
+                "This architecture works best in highly computative projects with little need for specialized hardware."
+            ],
+            "script": "The Peer-to-Peer Architecture has nodes connected to and exchanging data directly with each other rather than having to go through one server. It uses all of the available computational power for specialized tasks. This architecture is best for high-performance computations that don't need a lot of specific hardware."
+        },
+        {
+            "slide_number": 11,
+            "title": "Software as a Service (SaaS)",
+            "content": [
+                "Software is hosted remotely and accessed over the Internet.",
+                "The software is managed by a software provider rather than the client organization.",
+                "A browser can be the only installation required.",
+                "Users pay for use or gain free access by viewing advertisements.",
+                "Has benefits of cheaper costs to access software, however, can create organizational concerns with data storage and security."
+            ],
+            "script": "Now we'll consider Software as a Service. This means the software is delivered on a 'thin client' like the internet. It lowers costs, has accessibility, and shifts most management to the provider. However, data is stored on a cloud, which can be difficult for organizations from a security standpoint."
+        },
+        {
+            "slide_number": 12,
+            "title": "Key Points of Distributed Software Engineering",
+            "content": [
+                "Distributed systems are composed of multiple computers that work together and share resources to achieve a common goal.",
+                "Essential considerations include transparency, openness, scalability, security, quality of service, and failure management.",
+                "Architectural patterns such as Client-Server, Peer-to-Peer, and Distributed Component architectures offer proven solutions.",
+                "Web services and SaaS are changing how business software is organized and delivered, with potential benefits of reducing cost and increasing access."
+            ],
+            "script": "To summarize, distributed systems require careful planning to manage distribution, security, and availability. Architectural patterns offer proven solutions, and the rise of web services and SaaS provides new opportunities for how software is delivered."
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 4,
+    "title": "Requirements Engineering",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Chapter 4: Requirements Engineering - Introduction",
+            "content": [
+                "Requirements define what a system *should* do \u2013 services and constraints.",
+                "Requirements Engineering (RE) is about discovering, analyzing, documenting, and validating.",
+                "Aims to produce a software requirements document that meets stakeholders' needs.",
+                "Essential for preventing later project issues with design and implementation phases.",
+                " Errors in requirements phase are most expensive and time consuming to fix.",
+                "Different types of software systems require different approaches to Requirements Engineering.",
+                "RE processes aim to produce an agreed set of requirements documents."
+            ],
+            "script": "Welcome to Chapter 4 on Requirements Engineering! In this chapter, we'll delve into the critical first steps of any software project. We'll define what requirements are, why they're so important, and how to effectively gather, document, and validate them. This chapter is crucial for ensuring that you build the *right* product, not just build a product *right*."
+        },
+        {
+            "slide_number": 2,
+            "title": "User Requirements vs. System Requirements",
+            "content": [
+                "User Requirements: High-level, abstract statements for clients, end-users, etc. Must be easily understood.",
+                "System Requirements: Detailed descriptions of functions, services, and operational constraints.",
+                "System requirements are essential for use by the developers.",
+                "Requirements document translates customer needs into a language understandable by developers.",
+                "Good RE uses different levels of requirements to aid communication with various types of readers.",
+                "Clarity in both types of requirements is very important for avoiding costly mistakes and rework."
+            ],
+            "script": "This slide highlights the two main types of requirements: User Requirements and System Requirements. User Requirements are targeted towards those who will use or pay for the system. System requirements are technical details for the development team. It is essential to avoid 'muddling these together' and ensure all stakeholder groups can understand and use the requirements."
+        },
+        {
+            "slide_number": 3,
+            "title": "Functional vs. Non-Functional Requirements",
+            "content": [
+                "Functional Requirements: Describe what the system *should* do; services, inputs, outputs, and behavior.",
+                "Non-Functional Requirements: Constraints on system service delivery; dependability, performance, and security.",
+                "In practice, the line between types of requirements can often be blurred.",
+                "Well-defined non-functional requirements are essential for the success of a software product.",
+                "Quality is about ensuring both behaviour when executing, and the structure of documentation.",
+                "Non-functional requirements can dictate the system architecture and are not simply related to code.",
+                "Software specification should be both complete and consistent but in large projects this is not always achievable."
+            ],
+            "script": "Here, we differentiate between Functional and Non-Functional Requirements. Functional Requirements describe the what the system should do. Non-Functional requirements are constraints under which the system will operate. Functional requirements can include performance, security, and many more."
+        },
+        {
+            "slide_number": 4,
+            "title": "The Software Requirements Document (SRD)",
+            "content": [
+                "SRD is an official statement of what the system developers *should* implement. Contains user and system requirements.",
+                "Acts as the basis of agreement between the customer and software developer.",
+                "Agile proponents argue against exhaustive SRDs but short supporting documents are still beneficial.",
+                "Key issue for managers is whether the system meets their organization\u2019s needs.",
+                "Poor SRDs lead to software that doesn't do what stakeholders want.",
+                "SRDs should be clear, unambiguous, easy to understand, and consistent."
+            ],
+            "script": "This slide discusses the Software Requirements Document, or SRD. This document is important because it is the only official statement of what the system developers should implement. For this reason, the SRD acts as the basis of agreement between a client and software developer. Different types of SRDs need to be written and their purposes may vary based on whether the system is large or small."
+        },
+        {
+            "slide_number": 5,
+            "title": "SRD - Users and Use",
+            "content": [
+                "Various stakeholders will use the SRD during development.",
+                "Includes customers, system end-users, system engineers, and maintenance engineers.",
+                "Each stakeholder uses the SRD in a unique and significant way.",
+                "Users specify requirements and read to check that their needs will be met.",
+                "Managers use SRD to plan the project and to track system development progress.",
+                "Maintenance engineers use it to understand the system and component relationships.",
+                "Essential to have quality in the document so all users can access it."
+            ],
+            "script": "Here we explore who might use an SRD in its various applications. The key takeaway is that because of its applications and users, it must be well-organized and contain several levels of documentation. We have to be certain that the required format is correct as well."
+        },
+        {
+            "slide_number": 6,
+            "title": "SRD - Structure",
+            "content": [
+                "Structured information makes the document easy to read and helps different readers find what they need.",
+                "Should include a preface that defines the version history.",
+                "Should include an introduction describing the needs for the system.",
+                "Should include a user requirements definition describing the service provided for the user.",
+                "Should include a system architecture, such as architectural components that are reused.",
+                "Should include a system requirements specification describing in detail the system architecture.",
+                "Should include a system evolution describing assumptions on which the system should be based."
+            ],
+            "script": "This slide goes over possible sections to include in an SRD. The particular structure that you use depends on the organization, but there are several common sections, such as an introduction, description of system requirements, and information on system evolution."
+        },
+        {
+            "slide_number": 7,
+            "title": "Requirements Specification",
+            "content": [
+                "Requirements specification is the process of writing down the user and system requirements.",
+                "Should be clear, unambiguous, easy to understand, complete, and consistent.",
+                "That said, these features are difficult to achieve because of differences in how requirements are interpreted.",
+                "Requirements are not independent, one can generate or constrain another.",
+                "In web development, some argue requirements are not needed in the code itself.",
+                "It is essential to distinguish between user requirements and system requirements.",
+                "Non-functional requirements can be specified as abstract statements."
+            ],
+            "script": "Now, we delve into requirements specification, which is where we actually write down user and system requirements into a specific documentation. This process should try to be as clear and concise as possible so that all stakeholders will understand. Of course, writing the documents in such a way so that all requirements can meet these features can be difficult."
+        },
+        {
+            "slide_number": 8,
+            "title": "Requirements Specification - Natural Language",
+            "content": [
+                "Natural language remains the dominant method for expressing requirements.",
+                "The flexibility of natural language can lead to unclear requirements and misinterpretations.",
+                "Adopt a standard format, distinguishing between mandatory ('shall') and desirable ('should') requirements.",
+                "Use text highlighting to pick out key parts of the requirement.",
+                "Avoid software engineering jargon, abbreviations, and acronyms.",
+                "Include a rationale that explains the reason for including the requirement.",
+                "Always use appropriate examples to illustrate the clause."
+            ],
+            "script": "Despite the rise of other methods, Natural Language remains a popular means of documenting the requirements. Its use requires adhering to certain constraints and rules, such as adopting a standard format, using test highlighting, and including a rationale. To minimize misunderstandings when writing natural language requirements, guidelines should be followed."
+        },
+        {
+            "slide_number": 9,
+            "title": "Requirements Specification - Structured",
+            "content": [
+                "A structured approach limits the freedom of the requirements writer, which uses templates to provide structure.",
+                "May use programming language constructs or highlight key elements.",
+                "One example is defining fields on cards (one requirement per card).",
+                "Can make use of structured forms and pre/post-conditions.",
+                "Structured methods are useful to a development framework for less-experienced developers.",
+                "Data types/design may be included depending on system."
+            ],
+            "script": "Structured Specifications provide a rigid template for creating the requirements documentation. These may lead to pre- and post-conditions, and it provides an effective template for less experienced developers to get started in the SRD process."
+        },
+        {
+            "slide_number": 10,
+            "title": "Requirements Engineering Processes",
+            "content": [
+                "The aim of requirements engineering is to produce an agreed requirements document.",
+                "Main activities include feasibility study, requirements elicitation and analysis, specification, and validation.",
+                "Feasibility studies determine if needs can be met and are cost-effective.",
+                "Requirements elicitation and analysis derive system requirements (observing, user discussion, etc.).",
+                "Requirements specification translates gathered information into system and user requirements.",
+                "Requirements validation checks that requirements are realistic, consistent, and complete.",
+                "In agile development, requirements are developed incrementally according to user priorities."
+            ],
+            "script": "Now, we take a look at Requirement Engineering Processes, which should ultimately produce an agreed requirements document. Main activities in these processes can include Feasibility Studies, elicitation and analysis, specification, and validation."
+        },
+        {
+            "slide_number": 11,
+            "title": "Requirements Elicitation and Analysis",
+            "content": [
+                "Aims to derive system requirements through existing systems observations, discussions, and prototypes.",
+                "Consists of requirements discovery, requirements classification, and requirements prioritization.",
+                "Requirements discovery involves system stakeholder interaction to gather their requirements.",
+                "Requirements classification & organization groups related requirements.",
+                "Requirements prioritization and negotiation resolves conflicts through stakeholder negotiation.",
+                "Requirements specification documents the requirements for the requirements document."
+            ],
+            "script": "Now, we take a look at the Elicitation and Analysis portion. In this stage, the goal is to find all possible system requirements from a number of sources, not just user input, and that these sources may conflict. Remember, system models and prototypes can help to clarify issues."
+        },
+        {
+            "slide_number": 12,
+            "title": "Elicitation - Interviewing Stakeholders",
+            "content": [
+                "Stakeholders may include users, procurers, engineers, etc.",
+                "Interviews can be open (no pre-defined agenda) or closed (pre-defined questions).",
+                "Interviewing is good for understanding stakeholders and is a good starting point.",
+                "It may be difficult to extract domain knowledge through interviewing.",
+                "Those being interviewed may be reluctant to reveal all information or details.",
+                "Effective interviewers should be open-minded."
+            ],
+            "script": "Stakeholders play an important role in elicitation, as well. The interviews can be open-ended or consist of a series of pre-defined questions. The quality of information depends on if interviewers are open-minded and can effectively guide participants."
+        },
+        {
+            "slide_number": 13,
+            "title": "Elicitation - Scenarios and Use Cases",
+            "content": [
+                "Scenarios provide real-life examples for requirements.",
+                "Helps users see how a system would support their work.",
+                "Use cases can be organized using a high-level use case diagram.",
+                "Different laws may influence a system for mental healthcare (example).",
+                "Use case descriptions are combined with UML models.",
+                "Boundaries may be created based on legal needs."
+            ],
+            "script": "Scenarios provide real-life examples that provide users with a reference. These can be organized with high-level diagrams that depict the flow of information, and how it will affect different stakeholders involved. An example of this is systems for mental healthcare, where patient information must be kept private."
+        },
+        {
+            "slide_number": 14,
+            "title": "Requirements Validation",
+            "content": [
+                "Demonstrates to system customers that the requirements document reflects their needs.",
+                "Requirements errors are expensive to fix.",
+                "Requires checking for validity, consistency, completeness, realism, and verifiability.",
+                "Techniques include reviews, prototyping, and test-case generation.",
+                "Difficult to establish objective acceptance criteria.",
+                "Philosophical: It's hard to prove that something *doesn't* exist."
+            ],
+            "script": "This stage of Requirement Engineering is validation, which ensures that a system both conforms to its specification and that it meets the expectations of the customer. This requires the specification of criteria, and different techniques need to be implemented. While difficult to implement, this stage also serves to resolve conflicting views between various stakeholders."
+        },
+        {
+            "slide_number": 15,
+            "title": "Requirements Management",
+            "content": [
+                "Requirements change is inevitable and may need to change during the software process.",
+                "Without proper requirements change management, it is common to lose track of requirements.",
+                "There are two approaches used to reduce the costs of rework.",
+                "Process should manage configuration and version control.",
+                "Also essential to employ change tolerance and avoidance.",
+                "Change avoidance aims to anticipate possible changes before rework is required.",
+                "Change tolerance is designed to accommodate relatively low-cost changes."
+            ],
+            "script": "Finally, we take a look at Requirement Management, which is often overlooked as the final step in the requirements process. Because of constant revisions of requirements, it is essential that these changes are managed and kept track of. Changes can have high costs, but processes can help reduce rework."
+        }
+    ]
+}

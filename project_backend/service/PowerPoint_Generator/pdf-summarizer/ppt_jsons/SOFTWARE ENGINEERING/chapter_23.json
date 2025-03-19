@@ -1,0 +1,150 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 23,
+    "title": "Project planning",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Project Planning: An Overview",
+            "content": [
+                "Project planning establishes the scope, resources, and schedule for software development.",
+                "It's essential for managing time, budget, and delivering expected software.",
+                "Planning happens iteratively, from proposal to ongoing adjustments during the project.",
+                "The plan helps communicate objectives, allocate resources, and track progress effectively."
+            ],
+            "script": "Welcome to this presentation on Project Planning. This is where we discuss the core elements that drive a successful software project. We will cover the iterative nature of planning, it's a vital communication tool and the basis on which we manage our resources."
+        },
+        {
+            "slide_number": 2,
+            "title": "Software Pricing: Factors to Consider",
+            "content": [
+                "Pricing is not solely based on development costs; it includes organizational, economic factors.",
+                "Market opportunity, financial health, contractual terms, and requirements volatility are key.",
+                "Developers may lower prices to enter new markets or secure crucial projects for future opportunities.",
+                "Pricing to win, where bids match expected customer prices, balances customer needs and developer interests."
+            ],
+            "script": "This slide focuses on software pricing. We explore factors extending beyond mere cost that influence setting the right price, including strategic market entries, financial realities, and understanding the volatile nature of customer requirements. Pricing is a strategic decision!"
+        },
+        {
+            "slide_number": 3,
+            "title": "Plan-Driven Development: Characteristics",
+            "content": [
+                "Plan-driven development involves detailed planning and documentation of process activities.",
+                "All activities are scheduled and progress is measured against these plans.",
+                "Inflexible commitments to distinct stages can lead to problems with evolving requirements.",
+                "Documentation at each phase can make the process more transparent and easier to monitor."
+            ],
+            "script": "Here, we'll discuss Plan-Driven Development. It's all about a detailed upfront strategy, documentation, and tracking progress against a predetermined plan. While structured, it can present challenges when adapting to evolving customer needs. We'll also see the advantage of making progress more visible to management."
+        },
+        {
+            "slide_number": 4,
+            "title": "Essential Elements of a Project Plan",
+            "content": [
+                "Introduction: Project goals and constraints are explicitly defined for all parties involved.",
+                "Organization: Team structure, roles, and reporting relationships are clearly defined.",
+                "Risk Analysis: Potential problems are identified, and contingency plans for mitigation are outlined.",
+                "Resource needs: Hardware, software, tools, and required third-party services are specified."
+            ],
+            "script": "Now let's dive into the specific elements that must be included in a plan-driven project plan. A proper project plan starts with the basic information and then lays out how it identifies, evaluates, and deals with risks and manages the resources it will need."
+        },
+        {
+            "slide_number": 5,
+            "title": "Essential Elements of a Project Plan (cont.)",
+            "content": [
+                "Work Breakdown: The project is broken down into manageable activities and tasks.",
+                "Project Schedule: Dependencies and start/end dates for each activity are scheduled.",
+                "Monitoring/Reporting: How and when progress will be tracked and reported is clearly outlined.",
+                "Allocation of People to Activities: Who will work on what."
+            ],
+            "script": "Now let's look at what else needs to be in the Project Plan. A proper project plan provides a work breakdown structure, a schedule of tasks, how progress will be assessed, and which people are assigned to which activities."
+        },
+        {
+            "slide_number": 6,
+            "title": "Project Scheduling: Visualizing the Plan",
+            "content": [
+                "Schedules may be represented in tables or spreadsheets, but dependencies may be obscured.",
+                "Bar charts (Gantt charts) graphically display tasks, timelines, and responsible parties.",
+                "Activity networks visually emphasize task dependencies, helping manage critical paths.",
+                "Project planning tools typically automate the creation of schedules, charts, and reports."
+            ],
+            "script": "Project scheduling is about visualizing the plan. Bar charts make for easy reference of individual tasks and responsible parties, whereas activity networks highlight where there are dependencies. We'll now see the XP approach to scheduling and its core differences from the traditional approach."
+        },
+        {
+            "slide_number": 7,
+            "title": "Agile Planning: Incremental and Adaptive",
+            "content": [
+                "Agile planning focuses on iterative development, prioritizing rapid software delivery.",
+                "Requirements are defined as user stories with incremental specification and delivery.",
+                "XP utilizes short iterations with close customer involvement for continuous feedback.",
+                "XP planning consists of selecting/refining user stories, breaking into tasks, and assigning effort."
+            ],
+            "script": "This slide focuses on agile planning. In contrast to the detailed plans we saw earlier, agile focuses on iterative development, user stories, and close customer collaboration. You can see that its core values are all about adapting to changes quickly and producing working software as fast as possible."
+        },
+        {
+            "slide_number": 8,
+            "title": "XP: Estimating Effort and Managing Scope",
+            "content": [
+                "Developers estimate task effort, and customers prioritize based on business value.",
+                "Customers choose useful functionality to be implemented in two-week cycles.",
+                "Release deadlines are fixed; scope is adjusted if development faces unforeseen difficulties.",
+                "Teams use early iterations for spikes, to prototype documentation or architectural issues."
+            ],
+            "script": "Let's see how agile planning actually works. Here we see that XP emphasizes fixed deadlines and adjusting scope when it has problems. Customers make important decisions about what is to be built. Early iterations are used to create 'spikes', quick experiments in design or code."
+        },
+        {
+            "slide_number": 9,
+            "title": "Estimation Techniques: Balancing Act",
+            "content": [
+                "Estimation involves judgment, whether estimating effort directly or characteristics indirectly.",
+                "All estimation techniques involve uncertainty.",
+                "Plan-driven methods are more effective than agile methods when requirements are clear.",
+                "A balance between plan-driven and agile methods will reduce the number of estimations."
+            ],
+            "script": "We must remember that estimation is a balancing act. It always involves judgement and thus introduces the possibility of error. Plan driven methods have their strengths, especially when the requirements are clear, but often a mix of agile and plan-driven is needed to reduce the number of required estimations."
+        },
+        {
+            "slide_number": 10,
+            "title": "Estimation: Common Types of Technique",
+            "content": [
+                "Experience-based techniques rely on a project manager's past experiences and informed judgement.",
+                "Algorithmic cost modeling uses mathematical formulas to calculate project effort.",
+                "Algorithmic models need to be 'calibrated' for them to produce accurate costings.",
+                "The COCOMO II model is a good example."
+            ],
+            "script": "Let's look at some types of estimation techniques. We start with experience-based techniques where project managers use what they have learned in the past. We can also use algorithmic cost modeling that has an actual formula, but these formulas rely on being calibrated with data from past projects."
+        },
+        {
+            "slide_number": 11,
+            "title": "COCOMO II Model: A Look",
+            "content": [
+                "COCOMO II provides a structured, algorithmic approach for estimating project costs.",
+                "This model incorporates submodels that address specific phases of software evolution.",
+                "The application-composition, early design, reuse and post-architecture models are used.",
+                "COCOMO II relies on inputs and multipliers for more accuracy, such as the PM value."
+            ],
+            "script": "COCOMO II is the algorithmic costing model in our slides. It can incorporate sub models that address different phases in a project and relies on estimates of project size, team characteristics, and other features of the project to achieve its estimate."
+        },
+        {
+            "slide_number": 12,
+            "title": "COCOMO II: Factors in Early Design Model",
+            "content": [
+                "Product reliability, requirements complexity, and the need for code reuse are key factors.",
+                "Personnel capability, personnel experience, schedule requirements, and team tool use are included.",
+                "Factors are rated on a 6 point scale, influencing effort with a multiplier (M).",
+                "Different attributes contribute to the exponent B, derived from the values."
+            ],
+            "script": "Here we examine the factors that contribute to the early design model of COCOMO II. We see that this includes personnel ability and a number of project requirements. Notice that factors are quantified using a 6-point scale that will provide a multiplier for the final calculation."
+        },
+        {
+            "slide_number": 13,
+            "title": "Project Duration and Staffing",
+            "content": [
+                "Calendar time for project = 3 * (PM)^(0.33 + 0.2(B-1.01)); PM is effort, B the complexity exponent.",
+                "Adding staff beyond a certain point may actually slow a project (more effort/month).",
+                "Good project managers should start a project with a smaller team and carefully introduce members.",
+                "The Rayleigh curve shows what a proper ramp up of staffing on a project should look like."
+            ],
+            "script": "This slide gives us some rules of thumb for calculating our schedule and how to staff the project. A very important idea to take away from this is that staffing is not simply a question of the number of people. You must carefully plan the buildup to avoid diseconomies of scale. A Rayleigh Curve is a model of what staffing should look like to avoid these problems."
+        }
+    ]
+}

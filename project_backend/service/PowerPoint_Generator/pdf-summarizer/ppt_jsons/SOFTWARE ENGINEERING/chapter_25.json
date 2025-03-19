@@ -1,0 +1,108 @@
+{
+    "book_name": "SOFTWARE ENGINEERING",
+    "chapter": 25,
+    "title": "Configuration management",
+    "slides": [
+        {
+            "slide_number": 1,
+            "title": "Introduction to Configuration Management",
+            "content": [
+                "Configuration Management (CM) manages evolving software systems effectively, it is a key area of SQA.",
+                "CM tracks and controls software changes, crucial for team projects and distributed teams across the world.",
+                "Without CM, teams can face overwritten code, lost changes, or difficulty in recreating older versions of software.",
+                "CM is essential for systematic change integration, to ensure developers gain access to the project's code base."
+            ],
+            "script": "Hello everyone, let's begin our exploration of Configuration Management. This practice is vital for managing evolving software systems, particularly in team settings and with distributed teams. CM becomes a critical SQA component in this management. It addresses challenges such as potential code loss, change conflicts, and version control, ensuring streamlined integration and overall system cohesion."
+        },
+        {
+            "slide_number": 2,
+            "title": "Core Configuration Management Activities",
+            "content": [
+                "**Change Management:** Controls change requests, assessing costs, impact, and decisions.",
+                "**Version Management:** Tracks multiple component versions, preventing developer interference.",
+                "**System Building:** Creates executable systems, compiling/linking needed components and libaries.",
+                "**Release Management:** Prepares software for releases, tracking versions for user distribution."
+            ],
+            "script": "This slide outlines the core configuration management activities. Change management ensures a structured evaluation of proposed changes, followed by approval and monitoring. Version management provides meticulous tracking of component versions, minimizing conflicts between developers. Then, system building creates executables by assembling necessary components. And finally, Release management streamlines the release process, including preparation and tracking of system distributions."
+        },
+        {
+            "slide_number": 3,
+            "title": "Change Management: The Core Process",
+            "content": [
+                "Change Management (CM) addresses requested changes to the system, is initiated with a formal request.",
+                "Requests may stem from identified problems that require changes or new functionalities and requirements.",
+                "Change Request Form (CRF) tracks the change, and records, analysis, costing, and CCB decision date.",
+                "CRF provides a status, showing medical staff, with a description of subject impressions of the patient."
+            ],
+            "script": "Change Management is a central process in Configuration Management that initiates with a formal change request submission. These requests can cover from new functionality additions to identifying new problems. This process is managed through a Change Request Form or CRF, and captures every important change details. Using CRFs offers instant snapshots of its status."
+        },
+        {
+            "slide_number": 4,
+            "title": "Phases of Change Management Process",
+            "content": [
+                "**Problem Analysis/Change Specification:** Analyzing requests for validity and seeking specific solutions.",
+                "**Change Analysis/Costing:** Assessing change impact using traceability; determining change implementation cost.",
+                "**Change Implementation:** Implementing change request into modules; retesting modified system modules.",
+                "Process requires care to keep code, requirements, and designs aligned.",
+                "Appropriate process depends entirely on the views of the individuals who are involved."
+            ],
+            "script": "The Change Management process involves several phases. The initial phase analyzes the problem with a specific change solution. This is followed by assessing the cost for implementation. In the final phase, the approved changes are applied to the affected modules to complete the loop."
+        },
+        {
+            "slide_number": 5,
+            "title": "Version Management: Tracking and Control",
+            "content": [
+                "Version Management (VM) tracks component versions, preventing developer interference with each other's work.",
+                "VM includes version and release identification for traceability purposes in the process of configuration.",
+                "VM includes storage management and uses Deltas, which allows components to be automatically extracted.",
+                "Private workspaces also encourage testing before check-in to the code base."
+            ],
+            "script": "Let's discuss Version Management, which diligently tracks component versions to prevent code overwrites. This traceability involves version and release identification with storage management, using Deltas for component extraction. Private workspaces promote proper testing prior to code check-in."
+        },
+        {
+            "slide_number": 6,
+            "title": "Codelines, Mainlines, Branching, and Merging",
+            "content": [
+                "A **codeline** is a sequence of versions for a configuration item and its dependencies.",
+                "A **mainline** is a sequence of controlled baselines for different versions of a system.",
+                "**Branching** creates a new codeline from a version in the existing one.",
+                "**Merging** creates a new version using separated versions from distinct codelines."
+            ],
+            "script": "Key concepts in version management include codelines, which represent a sequence of versions for a component. The mainline is then a sequence of controlled system baselines. Branching creates independent codelines, and merging integrates them."
+        },
+        {
+            "slide_number": 7,
+            "title": "System Building: Creating Executable Systems",
+            "content": [
+                "System Building involves assembling and compiling components, data, and libraries to create an executable system.",
+                "To create the final product with all it\u00b4s configuration a specific platform is used.",
+                "Automated build tool is essential to get a high throughput.",
+                "The tool supports the creation of a working product, with all it\u00b4s steps and dependencies, in one command."
+            ],
+            "script": "System building creates an executable system by compiling and linking needed components with an automated tool that defines dependencies, and also performs tasks as version-managing. This ensures a efficient and streamlined method for creating final builds."
+        },
+        {
+            "slide_number": 8,
+            "title": "Build System Key Capabilities",
+            "content": [
+                "Build script generation with generation and edition capability.",
+                "Integration with version management for proper compiling.",
+                "Tools minimize re-compilation when detecting changed components.",
+                "Testings are needed when creating the system to assure quality.",
+                "Reports with the state of the build will be provided and the state of test and failures."
+            ],
+            "script": "A robust Build System includes features like automated script generation and integration with version management for effective compiling. Plus, tools for minimized re-compilation and embedded testing for quality assurance and reporting of the build and test status."
+        },
+        {
+            "slide_number": 9,
+            "title": "System Releases: Distribution and Documentation",
+            "content": [
+                "A system release is a software version ready for client distribution.",
+                "This includes both major releases (with new functionality) and minor releases (bug fixes).",
+                "Release needs to be reproducible: recording the code, data, and configuration files used.",
+                "The advent of downloadable patches does not replace the value of the key release."
+            ],
+            "script": "Let's explore System Releases and how they relate to client distribution. A System Release is the collection of all the componets that made it\u00b4s creation. In order, it also, will require a configuration set and a series of test."
+        }
+    ]
+}

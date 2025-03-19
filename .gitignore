@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+pdf-summarizer/logs/*
+text-summarization-demo-96388d7f1502.json
